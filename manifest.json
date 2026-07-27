@@ -1,41 +1,50 @@
 {
-  "schema": 1,
-  "channel": "stable",
-  "version": "1.4.1",
-  "published_at": "2026-07-27T19:04:25.6911661+02:00",
-  "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.4.1",
-  "release_notes": [
-    {
-      "version": "1.3.0",
-      "changes": [
-        "Note delle chiamate personalizzabili da Modifica messaggi e note.",
-        "Salvataggio note con priorita Primo contatto, Attesa doc e infine Note.",
-        "Scorrimento con rotellina nelle schermate Agenda e Strumenti.",
-        "Miglioramenti di stabilita per i bot CRM e WhatsApp."
-      ]
-    },
-    {
-      "version": "1.4.0",
-      "changes": [
-        "Popup prima dell'aggiornamento con elenco completo delle novita.",
-        "Pulsanti Riavvia e aggiorna oppure Ricordamelo piu tardi.",
-        "Controllo delle chiamate su quattro giorni distinti, non sul numero di note.",
-        "Dopo la quarta giornata la nota viene salvata e la scheda passa in gestione manuale.",
-        "Auto scadenza dal popup: RECALL, INT+AVANTI CON o INT+AVANTI SENZA."
-      ]
-    },
-    {
-      "version": "1.4.1",
-      "changes": [
-        "Lista competitor Art. 39 aggiornata dal nuovo file aziendale.",
-        "Aggiunte procedure, esempi e indicazioni di tempistica.",
-        "Ricerca migliorata per denominazioni alternative e vecchi nomi.",
-        "Esiti mancanti nel file segnalati come Da verificare."
-      ]
-    }
-  ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.4.1/EderaAutoCall-1.4.1.zip",
-  "sha256": "ffed5f26d3bedb053eb9433683c695a3b1f86636071a40b001868f7c0e79b87d",
-  "entrypoint": "EderaAutoCall.exe"
+    "schema":  1,
+    "channel":  "stable",
+    "version":  "1.4.2",
+    "published_at":  "2026-07-27T19:35:44.6004808+02:00",
+    "mandatory":  false,
+    "notes":  "Aggiornamento EderaAutoCall 1.4.2",
+    "release_notes":  [
+                          {
+                              "version":  "1.3.0",
+                              "changes":  [
+                                              "Note delle chiamate personalizzabili da Modifica messaggi e note.",
+                                              "Salvataggio note con priorita Primo contatto, Attesa doc e infine Note.",
+                                              "Scorrimento con rotellina nelle schermate Agenda e Strumenti.",
+                                              "Miglioramenti di stabilita per i bot CRM e WhatsApp."
+                                          ]
+                          },
+                          {
+                              "version":  "1.4.0",
+                              "changes":  [
+                                              "Popup prima dell\u0027aggiornamento con elenco completo delle novita.",
+                                              "Pulsanti Riavvia e aggiorna oppure Ricordamelo piu tardi.",
+                                              "Controllo delle chiamate su quattro giorni distinti, non sul numero di note.",
+                                              "Dopo la quarta giornata la nota viene salvata e la scheda passa in gestione manuale.",
+                                              "Auto scadenza dal popup: RECALL, INT+AVANTI CON o INT+AVANTI SENZA."
+                                          ]
+                          },
+                          {
+                              "version":  "1.4.1",
+                              "changes":  [
+                                              "Lista competitor Art. 39 aggiornata dal nuovo file aziendale.",
+                                              "Aggiunte procedure, esempi e indicazioni di tempistica.",
+                                              "Ricerca migliorata per denominazioni alternative e vecchi nomi.",
+                                              "Esiti mancanti nel file segnalati come Da verificare."
+                                          ]
+                          },
+                          {
+                              "version":  "1.4.2",
+                              "changes":  [
+                                              "Pulsanti del popup di aggiornamento sempre visibili.",
+                                              "Riquadro delle novita scorrevole anche con lo zoom di Windows.",
+                                              "Invio avvia l\u0027aggiornamento ed Esc chiude l\u0027avviso.",
+                                              "Il rinvio viene registrato solo scegliendo Ricordamelo piu tardi."
+                                          ]
+                          }
+                      ],
+    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.4.2/EderaAutoCall-1.4.2.zip",
+    "sha256":  "c2c343a7c30ae0e87d04cc4b130c6f042e71901ceb64f343b8deaee95b8319de",
+    "entrypoint":  "EderaAutoCall.exe"
 }
