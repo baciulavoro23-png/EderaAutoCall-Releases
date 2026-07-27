@@ -1,11 +1,32 @@
 {
-    "schema":  1,
-    "channel":  "stable",
-    "version":  "1.3.0",
-    "published_at":  "2026-07-27T15:37:50.2425558+02:00",
-    "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.3.0",
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.3.0/EderaAutoCall-1.3.0.zip",
-    "sha256":  "eeeef481a22a2b1c57c82aa47d5e6c8c32a6ae2735ab5aab30f7a812d63b2629",
-    "entrypoint":  "EderaAutoCall.exe"
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.4.0",
+  "published_at": "2026-07-27T16:19:24.0674122+02:00",
+  "mandatory": false,
+  "notes": "Aggiornamento EderaAutoCall 1.4.0",
+  "release_notes": [
+    {
+      "version": "1.3.0",
+      "changes": [
+        "Note delle chiamate personalizzabili da Modifica messaggi e note.",
+        "Salvataggio note con priorita Primo contatto, Attesa doc e infine Note.",
+        "Scorrimento con rotellina nelle schermate Agenda e Strumenti.",
+        "Miglioramenti di stabilita per i bot CRM e WhatsApp."
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "changes": [
+        "Popup prima dell'aggiornamento con elenco completo delle novita.",
+        "Pulsanti Riavvia e aggiorna oppure Ricordamelo piu tardi.",
+        "Controllo delle chiamate su quattro giorni distinti, non sul numero di note.",
+        "Dopo la quarta giornata la nota viene salvata e la scheda passa in gestione manuale.",
+        "Auto scadenza dal popup: RECALL, INT+AVANTI CON o INT+AVANTI SENZA."
+      ]
+    }
+  ],
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.4.0/EderaAutoCall-1.4.0.zip",
+  "sha256": "c62d85fce1074838726dad14517c8e73080c6e6521991ffdaeedc28b6cd6adaa",
+  "entrypoint": "EderaAutoCall.exe"
 }
