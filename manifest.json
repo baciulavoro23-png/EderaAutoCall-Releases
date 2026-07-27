@@ -1,0 +1,11 @@
+﻿{
+    "schema":  1,
+    "channel":  "stable",
+    "version":  "1.1.0",
+    "published_at":  "2026-07-27T11:43:52.8791068+02:00",
+    "mandatory":  false,
+    "notes":  "Aggiornamento EderaAutoCall 1.1.0",
+    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.1.0/EderaAutoCall-1.1.0.zip",
+    "sha256":  "f76b9046012cc1deda3b79b2f9368b833a4979322534f320aad1f8c28f6f2d16",
+    "entrypoint":  "EderaAutoCall.exe"
+}
