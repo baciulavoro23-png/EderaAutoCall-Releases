@@ -1,10 +1,10 @@
 {
     "schema":  1,
     "channel":  "stable",
-    "version":  "1.4.2",
-    "published_at":  "2026-07-27T19:35:44.6004808+02:00",
+    "version":  "1.4.3",
+    "published_at":  "2026-07-27T20:15:27.6812919+02:00",
     "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.4.2",
+    "notes":  "Aggiornamento EderaAutoCall 1.4.3",
     "release_notes":  [
                           {
                               "version":  "1.3.0",
@@ -42,9 +42,17 @@
                                               "Invio avvia l\u0027aggiornamento ed Esc chiude l\u0027avviso.",
                                               "Il rinvio viene registrato solo scegliendo Ricordamelo piu tardi."
                                           ]
+                          },
+                          {
+                              "version":  "1.4.3",
+                              "changes":  [
+                                              "Il pulsante Recall semplice ora si chiama Sveglia.",
+                                              "Nuovi tipi: lead, nominativo, cliente, firma, vendita e CS.",
+                                              "Le sveglie gia salvate vengono conservate durante l\u0027aggiornamento."
+                                          ]
                           }
                       ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.4.2/EderaAutoCall-1.4.2.zip",
-    "sha256":  "c2c343a7c30ae0e87d04cc4b130c6f042e71901ceb64f343b8deaee95b8319de",
+    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.4.3/EderaAutoCall-1.4.3.zip",
+    "sha256":  "7a905499674bc3cec0db9281ec239817c5f1160918052e72a33ba9dab3cec609",
     "entrypoint":  "EderaAutoCall.exe"
 }
