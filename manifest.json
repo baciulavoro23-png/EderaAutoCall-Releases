@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.4.4",
-  "published_at": "2026-07-28T09:58:54.4820373+02:00",
+  "version": "1.4.5",
+  "published_at": "2026-07-28T12:01:47.3805050+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.4.4",
+  "notes": "Aggiornamento EderaAutoCall 1.4.5",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -55,13 +55,22 @@
       "version": "1.4.4",
       "changes": [
         "Nuova Guida completa organizzata per argomenti e schemi operativi.",
-        "Tutorial illustrato al primo avvio con la mascotte Edera.",
+        "Tutorial illustrato al primo avvio con la mascotte Eddy.",
         "Apertura ed evidenziazione automatica delle funzioni durante il tutorial.",
         "Release pubblica composta esclusivamente dall'edizione Senza Firme."
       ]
+    },
+    {
+      "version": "1.4.5",
+      "changes": [
+        "Nuovo selettore grafico dell'orario per le Sveglie.",
+        "Tutorial ed evidenziazioni adattivi quando la finestra cambia monitor.",
+        "Guida proporzionata anche sugli schermi piu piccoli.",
+        "La mascotte ufficiale si presenta con il nome Eddy."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.4.4/EderaAutoCall-1.4.4.zip",
-  "sha256": "7ebc52225bad3cce9ff9819422d0494848f7d2ad09786b68a0eebc63c29d6649",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.4.5/EderaAutoCall-1.4.5.zip",
+  "sha256": "0c40a647f39d457f37deab44ca9b7fba7127d04ee7d93c9a0d69ea18a95628ae",
   "entrypoint": "EderaAutoCall_SENZA_FIRME.exe"
 }
