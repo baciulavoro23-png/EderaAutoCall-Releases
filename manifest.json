@@ -1,58 +1,67 @@
 {
-    "schema":  1,
-    "channel":  "stable",
-    "version":  "1.4.3",
-    "published_at":  "2026-07-27T20:15:27.6812919+02:00",
-    "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.4.3",
-    "release_notes":  [
-                          {
-                              "version":  "1.3.0",
-                              "changes":  [
-                                              "Note delle chiamate personalizzabili da Modifica messaggi e note.",
-                                              "Salvataggio note con priorita Primo contatto, Attesa doc e infine Note.",
-                                              "Scorrimento con rotellina nelle schermate Agenda e Strumenti.",
-                                              "Miglioramenti di stabilita per i bot CRM e WhatsApp."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.0",
-                              "changes":  [
-                                              "Popup prima dell\u0027aggiornamento con elenco completo delle novita.",
-                                              "Pulsanti Riavvia e aggiorna oppure Ricordamelo piu tardi.",
-                                              "Controllo delle chiamate su quattro giorni distinti, non sul numero di note.",
-                                              "Dopo la quarta giornata la nota viene salvata e la scheda passa in gestione manuale.",
-                                              "Auto scadenza dal popup: RECALL, INT+AVANTI CON o INT+AVANTI SENZA."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.1",
-                              "changes":  [
-                                              "Lista competitor Art. 39 aggiornata dal nuovo file aziendale.",
-                                              "Aggiunte procedure, esempi e indicazioni di tempistica.",
-                                              "Ricerca migliorata per denominazioni alternative e vecchi nomi.",
-                                              "Esiti mancanti nel file segnalati come Da verificare."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.2",
-                              "changes":  [
-                                              "Pulsanti del popup di aggiornamento sempre visibili.",
-                                              "Riquadro delle novita scorrevole anche con lo zoom di Windows.",
-                                              "Invio avvia l\u0027aggiornamento ed Esc chiude l\u0027avviso.",
-                                              "Il rinvio viene registrato solo scegliendo Ricordamelo piu tardi."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.3",
-                              "changes":  [
-                                              "Il pulsante Recall semplice ora si chiama Sveglia.",
-                                              "Nuovi tipi: lead, nominativo, cliente, firma, vendita e CS.",
-                                              "Le sveglie gia salvate vengono conservate durante l\u0027aggiornamento."
-                                          ]
-                          }
-                      ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.4.3/EderaAutoCall-1.4.3.zip",
-    "sha256":  "7a905499674bc3cec0db9281ec239817c5f1160918052e72a33ba9dab3cec609",
-    "entrypoint":  "EderaAutoCall.exe"
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.4.4",
+  "published_at": "2026-07-28T09:58:54.4820373+02:00",
+  "mandatory": false,
+  "notes": "Aggiornamento EderaAutoCall 1.4.4",
+  "release_notes": [
+    {
+      "version": "1.3.0",
+      "changes": [
+        "Note delle chiamate personalizzabili da Modifica messaggi e note.",
+        "Salvataggio note con priorita Primo contatto, Attesa doc e infine Note.",
+        "Scorrimento con rotellina nelle schermate Agenda e Strumenti.",
+        "Miglioramenti di stabilita per i bot CRM e WhatsApp."
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "changes": [
+        "Popup prima dell'aggiornamento con elenco completo delle novita.",
+        "Pulsanti Riavvia e aggiorna oppure Ricordamelo piu tardi.",
+        "Controllo delle chiamate su quattro giorni distinti, non sul numero di note.",
+        "Dopo la quarta giornata la nota viene salvata e la scheda passa in gestione manuale.",
+        "Auto scadenza dal popup: RECALL, INT+AVANTI CON o INT+AVANTI SENZA."
+      ]
+    },
+    {
+      "version": "1.4.1",
+      "changes": [
+        "Lista competitor Art. 39 aggiornata dal nuovo file aziendale.",
+        "Aggiunte procedure, esempi e indicazioni di tempistica.",
+        "Ricerca migliorata per denominazioni alternative e vecchi nomi.",
+        "Esiti mancanti nel file segnalati come Da verificare."
+      ]
+    },
+    {
+      "version": "1.4.2",
+      "changes": [
+        "Pulsanti del popup di aggiornamento sempre visibili.",
+        "Riquadro delle novita scorrevole anche con lo zoom di Windows.",
+        "Invio avvia l'aggiornamento ed Esc chiude l'avviso.",
+        "Il rinvio viene registrato solo scegliendo Ricordamelo piu tardi."
+      ]
+    },
+    {
+      "version": "1.4.3",
+      "changes": [
+        "Il pulsante Recall semplice ora si chiama Sveglia.",
+        "Nuovi tipi: lead, nominativo, cliente, firma, vendita e CS.",
+        "Le sveglie gia salvate vengono conservate durante l'aggiornamento."
+      ]
+    },
+    {
+      "version": "1.4.4",
+      "changes": [
+        "Nuova Guida completa organizzata per argomenti e schemi operativi.",
+        "Tutorial illustrato al primo avvio con la mascotte Edera.",
+        "Apertura ed evidenziazione automatica delle funzioni durante il tutorial.",
+        "Release pubblica composta esclusivamente dall'edizione Senza Firme."
+      ]
+    }
+  ],
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.4.4/EderaAutoCall-1.4.4.zip",
+  "sha256": "7ebc52225bad3cce9ff9819422d0494848f7d2ad09786b68a0eebc63c29d6649",
+  "entrypoint": "EderaAutoCall_SENZA_FIRME.exe"
 }
