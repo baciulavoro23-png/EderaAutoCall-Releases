@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.4.5",
-  "published_at": "2026-07-28T12:01:47.3805050+02:00",
+  "version": "1.5.0",
+  "published_at": "2026-07-28T13:23:44.2428024+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.4.5",
+  "notes": "Aggiornamento EderaAutoCall 1.5.0",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -68,9 +68,19 @@
         "Guida proporzionata anche sugli schermi piu piccoli.",
         "La mascotte ufficiale si presenta con il nome Eddy."
       ]
+    },
+    {
+      "version": "1.5.0",
+      "changes": [
+        "Nuovo assistente Eddy con riconoscimento vocale in italiano.",
+        "Comandi per navigazione, Sveglie, AutoCall, WhatsApp ed esiti chiamata.",
+        "Risposte pronunciate e alternativa testuale sempre disponibile.",
+        "Conferma obbligatoria prima delle azioni operative sensibili.",
+        "Nuova sezione della Guida con comandi, privacy e modalita d'uso."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.4.5/EderaAutoCall-1.4.5.zip",
-  "sha256": "0c40a647f39d457f37deab44ca9b7fba7127d04ee7d93c9a0d69ea18a95628ae",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.5.0/EderaAutoCall-1.5.0.zip",
+  "sha256": "e1099f383ed5f8dc3ac95ea0ab5aec1a2c9b3fc70ab3e88e94ef92d4f496a503",
   "entrypoint": "EderaAutoCall_SENZA_FIRME.exe"
 }
