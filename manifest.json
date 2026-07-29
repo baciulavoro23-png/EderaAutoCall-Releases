@@ -2,7 +2,7 @@
     "schema":  1,
     "channel":  "stable",
     "version":  "1.5.4",
-    "published_at":  "2026-07-29T15:04:34.3371770+02:00",
+    "published_at":  "2026-07-29T15:53:42.8475065+02:00",
     "mandatory":  false,
     "notes":  "Aggiornamento EderaAutoCall 1.5.4",
     "release_notes":  [
@@ -131,11 +131,13 @@
                                               "Interfaccia dell\u0027assistente vocale piu chiara, moderna e scorrevole.",
                                               "Eddy e animato nell\u0027assistente, nella Guida e nel tutorial.",
                                               "La sezione Recall contatti dell\u0027Agenda ora si chiama Sveglie.",
-                                              "Inclusa la correzione Phone Link con doppio motore UIA e Win32 nativo."
+                                              "Inclusa la correzione Phone Link con doppio motore UIA e Win32 nativo.",
+                                              "L\u0027aggiornamento ora chiude e attende correttamente la versione precedente prima di sostituirla.",
+                                              "Se Windows blocca l\u0027installazione viene mostrato l\u0027errore reale, senza riaprire silenziosamente la vecchia versione."
                                           ]
                           }
                       ],
     "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.5.4/EderaAutoCall-1.5.4.zip",
-    "sha256":  "df3758834321542bbbf980e881af5a1d3d8ce3a5a7eb04ac943c9f527dd8efd4",
+    "sha256":  "0a1049a1ccc8d69c65679121b1eedd49caab9f1707d5401095538441e504fe79",
     "entrypoint":  "EderaAutoCall.exe"
 }
