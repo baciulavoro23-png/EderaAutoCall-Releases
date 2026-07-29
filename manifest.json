@@ -1,10 +1,10 @@
 {
     "schema":  1,
     "channel":  "stable",
-    "version":  "1.5.2",
-    "published_at":  "2026-07-28T18:31:19.1330327+02:00",
+    "version":  "1.5.3",
+    "published_at":  "2026-07-29T12:15:10.4915554+02:00",
     "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.5.2",
+    "notes":  "Aggiornamento EderaAutoCall 1.5.3",
     "release_notes":  [
                           {
                               "version":  "1.3.0",
@@ -109,9 +109,21 @@
                                               "Nuovo pulsante Verifica telefono con diagnosi guidata di Collegamento al telefono.",
                                               "Corretto il rilascio del manifesto: l\u0027avviso di aggiornamento torna disponibile agli utenti."
                                           ]
+                          },
+                          {
+                              "version":  "1.5.3",
+                              "changes":  [
+                                              "Controllo della cornetta verde e rossa di Collegamento al telefono piu compatibile tra PC diversi.",
+                                              "Nuova spunta per inviare WhatsApp anche su Primo contatto e Attesa doc.",
+                                              "Nuovo tipo LEAD MIX: include i lead con e senza icona del messaggio.",
+                                              "Statistiche di fine sessione con chiamate, durata, velocita e percentuale di risposta.",
+                                              "Storico delle sessioni e medie complessive consultabili da AutoCall.",
+                                              "Aggiornamento automatico corretto anche dopo un\u0027installazione manuale.",
+                                              "Rimossa la configurazione WhatsApp API non utilizzata."
+                                          ]
                           }
                       ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.5.2/EderaAutoCall-1.5.2.zip",
-    "sha256":  "a4573dc8546d27f738da64c7656b9f9bf6070bde56fff646499f9d5604e221d4",
-    "entrypoint":  "EderaAutoCall_SENZA_FIRME.exe"
+    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.5.3/EderaAutoCall-1.5.3.zip",
+    "sha256":  "6bd8440893237b9fe8f5871fd02489976467d223d4e664f373e06575eda45e26",
+    "entrypoint":  "EderaAutoCall.exe"
 }
