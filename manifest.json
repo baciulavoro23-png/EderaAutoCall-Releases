@@ -2,7 +2,7 @@
     "schema":  1,
     "channel":  "stable",
     "version":  "1.5.4",
-    "published_at":  "2026-07-29T15:53:42.8475065+02:00",
+    "published_at":  "2026-07-29T16:24:45.8146041+02:00",
     "mandatory":  false,
     "notes":  "Aggiornamento EderaAutoCall 1.5.4",
     "release_notes":  [
@@ -138,6 +138,6 @@
                           }
                       ],
     "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.5.4/EderaAutoCall-1.5.4.zip",
-    "sha256":  "0a1049a1ccc8d69c65679121b1eedd49caab9f1707d5401095538441e504fe79",
+    "sha256":  "20421aaabc2669879562c4e0a587f52d999f5ed767a9e7889b7c016e38cdc8c8",
     "entrypoint":  "EderaAutoCall.exe"
 }
