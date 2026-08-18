@@ -1,143 +1,162 @@
 {
-    "schema":  1,
-    "channel":  "stable",
-    "version":  "1.5.4",
-    "published_at":  "2026-07-29T16:24:45.8146041+02:00",
-    "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.5.4",
-    "release_notes":  [
-                          {
-                              "version":  "1.3.0",
-                              "changes":  [
-                                              "Note delle chiamate personalizzabili da Modifica messaggi e note.",
-                                              "Salvataggio note con priorita Primo contatto, Attesa doc e infine Note.",
-                                              "Scorrimento con rotellina nelle schermate Agenda e Strumenti.",
-                                              "Miglioramenti di stabilita per i bot CRM e WhatsApp."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.0",
-                              "changes":  [
-                                              "Popup prima dell\u0027aggiornamento con elenco completo delle novita.",
-                                              "Pulsanti Riavvia e aggiorna oppure Ricordamelo piu tardi.",
-                                              "Controllo delle chiamate su quattro giorni distinti, non sul numero di note.",
-                                              "Dopo la quarta giornata la nota viene salvata e la scheda passa in gestione manuale.",
-                                              "Auto scadenza dal popup: RECALL, INT+AVANTI CON o INT+AVANTI SENZA."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.1",
-                              "changes":  [
-                                              "Lista competitor Art. 39 aggiornata dal nuovo file aziendale.",
-                                              "Aggiunte procedure, esempi e indicazioni di tempistica.",
-                                              "Ricerca migliorata per denominazioni alternative e vecchi nomi.",
-                                              "Esiti mancanti nel file segnalati come Da verificare."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.2",
-                              "changes":  [
-                                              "Pulsanti del popup di aggiornamento sempre visibili.",
-                                              "Riquadro delle novita scorrevole anche con lo zoom di Windows.",
-                                              "Invio avvia l\u0027aggiornamento ed Esc chiude l\u0027avviso.",
-                                              "Il rinvio viene registrato solo scegliendo Ricordamelo piu tardi."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.3",
-                              "changes":  [
-                                              "Il pulsante Recall semplice ora si chiama Sveglia.",
-                                              "Nuovi tipi: lead, nominativo, cliente, firma, vendita e CS.",
-                                              "Le sveglie gia salvate vengono conservate durante l\u0027aggiornamento."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.4",
-                              "changes":  [
-                                              "Nuova Guida completa organizzata per argomenti e schemi operativi.",
-                                              "Tutorial illustrato al primo avvio con la mascotte Eddy.",
-                                              "Apertura ed evidenziazione automatica delle funzioni durante il tutorial.",
-                                              "Release pubblica composta esclusivamente dall\u0027edizione Senza Firme."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.5",
-                              "changes":  [
-                                              "Nuovo selettore grafico dell\u0027orario per le Sveglie.",
-                                              "Tutorial ed evidenziazioni adattivi quando la finestra cambia monitor.",
-                                              "Guida proporzionata anche sugli schermi piu piccoli.",
-                                              "La mascotte ufficiale si presenta con il nome Eddy."
-                                          ]
-                          },
-                          {
-                              "version":  "1.5.0",
-                              "changes":  [
-                                              "Nuovo assistente Eddy con riconoscimento vocale in italiano.",
-                                              "Comandi per navigazione, Sveglie, AutoCall, WhatsApp ed esiti chiamata.",
-                                              "Risposte pronunciate e alternativa testuale sempre disponibile.",
-                                              "Conferma obbligatoria prima delle azioni operative sensibili.",
-                                              "Nuova sezione della Guida con comandi, privacy e modalita d\u0027uso."
-                                          ]
-                          },
-                          {
-                              "version":  "1.5.1",
-                              "changes":  [
-                                              "Eddy usa il motore vocale moderno di Windows 11 quando quello classico non vede l\u0027italiano.",
-                                              "Riconoscimento corretto dei pacchetti vocali italiani gia installati.",
-                                              "Messaggi distinti per lingua, consenso vocale online e permesso microfono.",
-                                              "Nuovo pulsante Impostazioni voce nel pannello di Eddy."
-                                          ]
-                          },
-                          {
-                              "version":  "2.0.0",
-                              "changes":  [
-                                              "Eddy comprende richieste formulate liberamente, senza comandi rigidi.",
-                                              "Nuova voce maschile italiana Microsoft Cosimo, piu calda e naturale.",
-                                              "Apertura autonoma di nuove schede Chrome controllate da Eddy.",
-                                              "Ricerca CRM per telefono oppure cognome e nome.",
-                                              "Apertura degli stati pratica e scrittura di testo libero in posizione.",
-                                              "Invio WhatsApp dalla scheda corrente con conferma obbligatoria.",
-                                              "Chiave AI protetta da Windows e modalita locale sempre disponibile."
-                                          ]
-                          },
-                          {
-                              "version":  "1.5.2",
-                              "changes":  [
-                                              "La regola di scadenza conta solo quattro note su quattro giorni diversi in Primo contatto.",
-                                              "Le note di Attesa doc e della scheda Note non influiscono piu sulla soglia.",
-                                              "Riconoscimento della cornetta verde e rossa piu compatibile con le versioni di Phone Link sugli altri PC.",
-                                              "Nuovo pulsante Verifica telefono con diagnosi guidata di Collegamento al telefono.",
-                                              "Corretto il rilascio del manifesto: l\u0027avviso di aggiornamento torna disponibile agli utenti."
-                                          ]
-                          },
-                          {
-                              "version":  "1.5.3",
-                              "changes":  [
-                                              "Controllo della cornetta verde e rossa di Collegamento al telefono piu compatibile tra PC diversi.",
-                                              "Nuova spunta per inviare WhatsApp anche su Primo contatto e Attesa doc.",
-                                              "Nuovo tipo LEAD MIX: include i lead con e senza icona del messaggio.",
-                                              "Statistiche di fine sessione con chiamate, durata, velocita e percentuale di risposta.",
-                                              "Storico delle sessioni e medie complessive consultabili da AutoCall.",
-                                              "Aggiornamento automatico corretto anche dopo un\u0027installazione manuale.",
-                                              "Rimossa la configurazione WhatsApp API non utilizzata."
-                                          ]
-                          },
-                          {
-                              "version":  "1.5.4",
-                              "changes":  [
-                                              "Nuovi interruttori grafici WA bloccato e Manda WA in AutoCall.",
-                                              "Finestre Task mattina e Task giornata completamente ridisegnate.",
-                                              "Eddy diventa un pulsante animato e apre direttamente l\u0027assistente vocale.",
-                                              "Interfaccia dell\u0027assistente vocale piu chiara, moderna e scorrevole.",
-                                              "Eddy e animato nell\u0027assistente, nella Guida e nel tutorial.",
-                                              "La sezione Recall contatti dell\u0027Agenda ora si chiama Sveglie.",
-                                              "Inclusa la correzione Phone Link con doppio motore UIA e Win32 nativo.",
-                                              "L\u0027aggiornamento ora chiude e attende correttamente la versione precedente prima di sostituirla.",
-                                              "Se Windows blocca l\u0027installazione viene mostrato l\u0027errore reale, senza riaprire silenziosamente la vecchia versione."
-                                          ]
-                          }
-                      ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.5.4/EderaAutoCall-1.5.4.zip",
-    "sha256":  "20421aaabc2669879562c4e0a587f52d999f5ed767a9e7889b7c016e38cdc8c8",
-    "entrypoint":  "EderaAutoCall.exe"
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.6.0",
+  "published_at": "2026-08-18T11:52:51.4468927+02:00",
+  "mandatory": false,
+  "notes": "Aggiornamento EderaAutoCall 1.6.0",
+  "release_notes": [
+    {
+      "version": "1.3.0",
+      "changes": [
+        "Note delle chiamate personalizzabili da Modifica messaggi e note.",
+        "Salvataggio note con priorita Primo contatto, Attesa doc e infine Note.",
+        "Scorrimento con rotellina nelle schermate Agenda e Strumenti.",
+        "Miglioramenti di stabilita per i bot CRM e WhatsApp."
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "changes": [
+        "Popup prima dell'aggiornamento con elenco completo delle novita.",
+        "Pulsanti Riavvia e aggiorna oppure Ricordamelo piu tardi.",
+        "Controllo delle chiamate su quattro giorni distinti, non sul numero di note.",
+        "Dopo la quarta giornata la nota viene salvata e la scheda passa in gestione manuale.",
+        "Auto scadenza dal popup: RECALL, INT+AVANTI CON o INT+AVANTI SENZA."
+      ]
+    },
+    {
+      "version": "1.4.1",
+      "changes": [
+        "Lista competitor Art. 39 aggiornata dal nuovo file aziendale.",
+        "Aggiunte procedure, esempi e indicazioni di tempistica.",
+        "Ricerca migliorata per denominazioni alternative e vecchi nomi.",
+        "Esiti mancanti nel file segnalati come Da verificare."
+      ]
+    },
+    {
+      "version": "1.4.2",
+      "changes": [
+        "Pulsanti del popup di aggiornamento sempre visibili.",
+        "Riquadro delle novita scorrevole anche con lo zoom di Windows.",
+        "Invio avvia l'aggiornamento ed Esc chiude l'avviso.",
+        "Il rinvio viene registrato solo scegliendo Ricordamelo piu tardi."
+      ]
+    },
+    {
+      "version": "1.4.3",
+      "changes": [
+        "Il pulsante Recall semplice ora si chiama Sveglia.",
+        "Nuovi tipi: lead, nominativo, cliente, firma, vendita e CS.",
+        "Le sveglie gia salvate vengono conservate durante l'aggiornamento."
+      ]
+    },
+    {
+      "version": "1.4.4",
+      "changes": [
+        "Nuova Guida completa organizzata per argomenti e schemi operativi.",
+        "Tutorial illustrato al primo avvio con la mascotte Eddy.",
+        "Apertura ed evidenziazione automatica delle funzioni durante il tutorial.",
+        "Release pubblica composta esclusivamente dall'edizione Senza Firme."
+      ]
+    },
+    {
+      "version": "1.4.5",
+      "changes": [
+        "Nuovo selettore grafico dell'orario per le Sveglie.",
+        "Tutorial ed evidenziazioni adattivi quando la finestra cambia monitor.",
+        "Guida proporzionata anche sugli schermi piu piccoli.",
+        "La mascotte ufficiale si presenta con il nome Eddy."
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "changes": [
+        "Nuovo assistente Eddy con riconoscimento vocale in italiano.",
+        "Comandi per navigazione, Sveglie, AutoCall, WhatsApp ed esiti chiamata.",
+        "Risposte pronunciate e alternativa testuale sempre disponibile.",
+        "Conferma obbligatoria prima delle azioni operative sensibili.",
+        "Nuova sezione della Guida con comandi, privacy e modalita d'uso."
+      ]
+    },
+    {
+      "version": "1.5.1",
+      "changes": [
+        "Eddy usa il motore vocale moderno di Windows 11 quando quello classico non vede l'italiano.",
+        "Riconoscimento corretto dei pacchetti vocali italiani gia installati.",
+        "Messaggi distinti per lingua, consenso vocale online e permesso microfono.",
+        "Nuovo pulsante Impostazioni voce nel pannello di Eddy."
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "changes": [
+        "Eddy comprende richieste formulate liberamente, senza comandi rigidi.",
+        "Nuova voce maschile italiana Microsoft Cosimo, piu calda e naturale.",
+        "Apertura autonoma di nuove schede Chrome controllate da Eddy.",
+        "Ricerca CRM per telefono oppure cognome e nome.",
+        "Apertura degli stati pratica e scrittura di testo libero in posizione.",
+        "Invio WhatsApp dalla scheda corrente con conferma obbligatoria.",
+        "Chiave AI protetta da Windows e modalita locale sempre disponibile."
+      ]
+    },
+    {
+      "version": "1.5.2",
+      "changes": [
+        "La regola di scadenza conta solo quattro note su quattro giorni diversi in Primo contatto.",
+        "Le note di Attesa doc e della scheda Note non influiscono piu sulla soglia.",
+        "Riconoscimento della cornetta verde e rossa piu compatibile con le versioni di Phone Link sugli altri PC.",
+        "Nuovo pulsante Verifica telefono con diagnosi guidata di Collegamento al telefono.",
+        "Corretto il rilascio del manifesto: l'avviso di aggiornamento torna disponibile agli utenti."
+      ]
+    },
+    {
+      "version": "1.5.3",
+      "changes": [
+        "Controllo della cornetta verde e rossa di Collegamento al telefono piu compatibile tra PC diversi.",
+        "Nuova spunta per inviare WhatsApp anche su Primo contatto e Attesa doc.",
+        "Nuovo tipo LEAD MIX: include i lead con e senza icona del messaggio.",
+        "Statistiche di fine sessione con chiamate, durata, velocita e percentuale di risposta.",
+        "Storico delle sessioni e medie complessive consultabili da AutoCall.",
+        "Aggiornamento automatico corretto anche dopo un'installazione manuale.",
+        "Rimossa la configurazione WhatsApp API non utilizzata."
+      ]
+    },
+    {
+      "version": "1.5.4",
+      "changes": [
+        "Nuovi interruttori grafici WA bloccato e Manda WA in AutoCall.",
+        "Finestre Task mattina e Task giornata completamente ridisegnate.",
+        "Eddy diventa un pulsante animato e apre direttamente l'assistente vocale.",
+        "Interfaccia dell'assistente vocale piu chiara, moderna e scorrevole.",
+        "Eddy e animato nell'assistente, nella Guida e nel tutorial.",
+        "La sezione Recall contatti dell'Agenda ora si chiama Sveglie.",
+        "Inclusa la correzione Phone Link con doppio motore UIA e Win32 nativo.",
+        "L'aggiornamento ora chiude e attende correttamente la versione precedente prima di sostituirla.",
+        "Se Windows blocca l'installazione viene mostrato l'errore reale, senza riaprire silenziosamente la vecchia versione."
+      ]
+    },
+    {
+      "version": "1.5.5",
+      "changes": [
+        "Eliminata la modalita Senza stato - Oggi 16:00.",
+        "Da Modifica messaggi e note puoi scegliere oggi o domani e l'orario del ricontatto.",
+        "La scelta viene applicata ai Senza stato e a Primo contatto / Attesa doc dopo la segreteria."
+      ]
+    },
+    {
+      "version": "1.6.0",
+      "changes": [
+        "Nuovo accesso personale con password e cambio obbligatorio al primo ingresso.",
+        "Il Master puo creare utenti, abilitare altri Master e reimpostare le password.",
+        "Registro completo delle attivita e sincronizzazione con il Portale Master.",
+        "AutoCall usa la gestione manuale come predefinita e prosegue automaticamente solo con NR.",
+        "Senza stato e ora una voce unica; data e ora del ricontatto sono liberamente configurabili."
+      ]
+    }
+  ],
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.0/EderaAutoCall-1.6.0.zip",
+  "sha256": "f57e334c545e2fe9668a8d9edef8a4871e1686f32431265d5abb9139efc5a372",
+  "entrypoint": "EderaAutoCall.exe"
 }
+
