@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.6.0",
-  "published_at": "2026-08-18T11:52:51.4468927+02:00",
+  "version": "1.6.1",
+  "published_at": "2026-08-19T16:23:49.8291612+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.6.0",
+  "notes": "Aggiornamento EderaAutoCall 1.6.1",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -57,7 +57,7 @@
         "Nuova Guida completa organizzata per argomenti e schemi operativi.",
         "Tutorial illustrato al primo avvio con la mascotte Eddy.",
         "Apertura ed evidenziazione automatica delle funzioni durante il tutorial.",
-        "Release pubblica composta esclusivamente dall'edizione Senza Firme."
+        "La Guida adatta i contenuti alla disponibilita della sezione Firme."
       ]
     },
     {
@@ -153,10 +153,23 @@
         "AutoCall usa la gestione manuale come predefinita e prosegue automaticamente solo con NR.",
         "Senza stato e ora una voce unica; data e ora del ricontatto sono liberamente configurabili."
       ]
+    },
+    {
+      "version": "1.6.1",
+      "changes": [
+        "Accesso a schermata intera e funzioni bloccate fino all'autenticazione.",
+        "Il nome utente si inserisce manualmente e il login non mostra l'elenco dei profili.",
+        "Ricordami ridisegnato e protetto nell'app e nel Portale Master.",
+        "I profili creati nell'app compaiono subito nel portale.",
+        "La sezione Utenti e invisibile agli operatori ed e protetta anche all'apertura.",
+        "Gli avvisi del Master hanno Eddy, animazione prioritaria e un suono diverso dalle Sveglie.",
+        "Suoneria delle sveglie personalizzabile con un file audio scelto dall'utente.",
+        "Un solo programma: la sezione Firme digitali appare esclusivamente agli utenti abilitati dal Master."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.0/EderaAutoCall-1.6.0.zip",
-  "sha256": "f57e334c545e2fe9668a8d9edef8a4871e1686f32431265d5abb9139efc5a372",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.1/EderaAutoCall-1.6.1.zip",
+  "sha256": "a278ad0f2f13e3b64e3695fd29c504efe04095756ee2edbc421c74951ce60596",
   "entrypoint": "EderaAutoCall.exe"
 }
 
