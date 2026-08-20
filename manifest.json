@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.6.3",
-  "published_at": "2026-08-20T16:44:39.4026872+02:00",
+  "version": "1.6.4",
+  "published_at": "2026-08-20T18:03:10.7288304+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.6.3",
+  "notes": "Aggiornamento EderaAutoCall 1.6.4",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -185,8 +185,8 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.3/EderaAutoCall-1.6.3.zip",
-  "sha256": "dae46451b50214a89383db0878505681dfd59ce28c88e43bd8bbab8076edc6c9",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.4/EderaAutoCall-1.6.4.zip",
+  "sha256": "3f124746db415f69269709b28c5c6ac5d75f5be7f55ad4269596524472646ad4",
   "entrypoint": "EderaAutoCall.exe"
 }
 
