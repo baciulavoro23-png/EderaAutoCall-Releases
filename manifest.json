@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.6.1",
-  "published_at": "2026-08-19T16:23:49.8291612+02:00",
+  "version": "1.6.2",
+  "published_at": "2026-08-20T12:51:00.7311713+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.6.1",
+  "notes": "Aggiornamento EderaAutoCall 1.6.2",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -166,10 +166,19 @@
         "Suoneria delle sveglie personalizzabile con un file audio scelto dall'utente.",
         "Un solo programma: la sezione Firme digitali appare esclusivamente agli utenti abilitati dal Master."
       ]
+    },
+    {
+      "version": "1.6.2",
+      "changes": [
+        "Nuovi utenti e reset password del Master vengono sincronizzati automaticamente su tutti i PC.",
+        "Le password non vengono mai trasmesse: viene replicata solo l'impronta crittografica protetta.",
+        "Al primo avvio l'app aggiorna gli account prima di mostrare la schermata di accesso.",
+        "L'eliminazione definitiva dal Portale Master revoca anche il profilo dalle app aggiornate."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.1/EderaAutoCall-1.6.1.zip",
-  "sha256": "a278ad0f2f13e3b64e3695fd29c504efe04095756ee2edbc421c74951ce60596",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.2/EderaAutoCall-1.6.2.zip",
+  "sha256": "ed239d3b898ec9299588c022c526271225dda622bfe8367d9fcad8d11923c023",
   "entrypoint": "EderaAutoCall.exe"
 }
 
