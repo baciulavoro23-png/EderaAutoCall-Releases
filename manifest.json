@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.6.6",
-  "published_at": "2026-08-21T11:09:37.5988415+02:00",
+  "version": "1.6.8",
+  "published_at": "2026-08-21T11:23:25.9986633+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.6.6",
+  "notes": "Aggiornamento EderaAutoCall 1.6.8",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -198,10 +198,16 @@
         "Presenza online aggiornata automaticamente finché l'app resta aperta.",
         "Logout spostato nella Guida in una posizione sempre visibile."
       ]
+    },
+    {
+      "version": "1.6.7",
+      "changes": [
+        "Ogni utente viene registrato online immediatamente dopo l'accesso."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.6/EderaAutoCall-1.6.6.zip",
-  "sha256": "b6bd57e93473930fdee55951c88a0abab107aa2868866692668afbb4ea5635c1",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.8/EderaAutoCall-1.6.8.zip",
+  "sha256": "a92e9b6e423c86b72a2b196322604b18c8051fc5a497ac6b45c41bdc9dc4d451",
   "entrypoint": "EderaAutoCall.exe"
 }
 
