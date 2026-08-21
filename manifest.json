@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.6.8",
-  "published_at": "2026-08-21T11:23:25.9986633+02:00",
+  "version": "1.6.9",
+  "published_at": "2026-08-21T11:35:46.7098038+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.6.8",
+  "notes": "Aggiornamento EderaAutoCall 1.6.9",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -204,10 +204,17 @@
       "changes": [
         "Ogni utente viene registrato online immediatamente dopo l'accesso."
       ]
+    },
+    {
+      "version": "1.6.9",
+      "changes": [
+        "Le credenziali centralizzate vengono applicate correttamente prima del login su ogni PC."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.8/EderaAutoCall-1.6.8.zip",
-  "sha256": "a92e9b6e423c86b72a2b196322604b18c8051fc5a497ac6b45c41bdc9dc4d451",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.9/EderaAutoCall-1.6.9.zip",
+  "sha256": "c87555bbad83b32b640143b9d7e71a84b478c7e23a05190e4ea613bc15a89eae",
   "entrypoint": "EderaAutoCall.exe"
 }
+
 
