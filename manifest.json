@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.6.4",
-  "published_at": "2026-08-20T18:03:10.7288304+02:00",
+  "version": "1.6.5",
+  "published_at": "2026-08-21T10:56:14.7833219+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.6.4",
+  "notes": "Aggiornamento EderaAutoCall 1.6.5",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -183,10 +183,18 @@
         "Baciu non viene più precompilato né bloccato nella schermata di accesso.",
         "Alla prima configurazione puoi scegliere anche il nome del primo Master."
       ]
+    },
+    {
+      "version": "1.6.5",
+      "changes": [
+        "App e Portale Master usano ora lo stesso archivio centrale di utenti e attività.",
+        "Aggiunto Logout nella sezione Guida.",
+        "Dopo l'aggiornamento viene richiesto un nuovo accesso una sola volta."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.4/EderaAutoCall-1.6.4.zip",
-  "sha256": "3f124746db415f69269709b28c5c6ac5d75f5be7f55ad4269596524472646ad4",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.6.5/EderaAutoCall-1.6.5.zip",
+  "sha256": "81ed7696a3fd3a26a0705dcc8450fdcd3ab585919e6248d60491baaeae5a413b",
   "entrypoint": "EderaAutoCall.exe"
 }
 
