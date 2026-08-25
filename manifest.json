@@ -1,10 +1,10 @@
 {
     "schema":  1,
     "channel":  "stable",
-    "version":  "1.7.2",
-    "published_at":  "2026-08-25T13:24:31.1223095+02:00",
+    "version":  "1.7.3",
+    "published_at":  "2026-08-25T14:42:35.6298429+02:00",
     "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.7.2",
+    "notes":  "Aggiornamento EderaAutoCall 1.7.3",
     "release_notes":  [
                           {
                               "version":  "1.3.0",
@@ -229,18 +229,31 @@
                               "version":  "1.7.2",
                               "changes":  [
                                               "Il contatto successivo si apre soltanto dopo NR o Gestione manuale completata.",
-                                              "Una scheda chiusa o cambiata dal CRM non viene piu scambiata per un esito completato.",
+                                              "Una scheda chiusa o cambiata dal CRM non viene piÃ¹ scambiata per un esito completato.",
                                               "Se la chiamata non parte, la stessa scheda viene ritentata una volta e poi il range si ferma senza scorrere gli altri contatti.",
                                               "Le schede duplicate o rimaste orfane dopo un errore vengono chiuse automaticamente.",
                                               "Eliminati i cinque ritorni consecutivi della pagina CRM che potevano sommare decine di secondi.",
                                               "Ritorno rapido all\u0027elenco con un solo tentativo e recupero diretto limitato a quattro secondi.",
                                               "Registro AutoCall salvato anche su disco e diagnostica dettagliata inviata al portale Master.",
-                                              "Comunicazione con ChromeDriver limitata per evitare attese indefinite sui PC piu lenti."
+                                              "Comunicazione con ChromeDriver limitata per evitare attese indefinite sui PC piÃ¹ lenti."
+                                          ]
+                          },
+                          {
+                              "version":  "1.7.3",
+                              "changes":  [
+                                              "Agenda rimossa e AutoCall aperto subito, senza controlli di task o sveglie in sottofondo.",
+                                              "Tutti i flussi AutoCall condividono lo stesso ciclo rapido e protetto.",
+                                              "Cornetta verde premuta fisicamente con ricerca mirata; eliminati i falsi clic riusciti.",
+                                              "Chiusura chiamata immediata tramite comando ufficiale di Collegamento al telefono.",
+                                              "NR salva una sola volta usando stato e cronologia giÃ  letti, senza riaprire ripetutamente la pratica.",
+                                              "Conferma del salvataggio limitata a meno di due secondi e nessuna attesa indefinita.",
+                                              "Se chiamata, chiusura o salvataggio falliscono, AutoCall resta sul contatto corrente e non apre altre schede.",
+                                              "Corretto il blocco della scadenza automatica dopo quattro giorni."
                                           ]
                           }
                       ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.7.2/EderaAutoCall-1.7.2.zip",
-    "sha256":  "ff609df410d306d9b5bc61bc4ea903a2766d883393222c8ff24aeced89490b69",
+    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.7.3/EderaAutoCall-1.7.3.zip",
+    "sha256":  "d1a2646550fb3e95d49168c7f2cfbcfb3bdfd51eb8c4b942de2106134f1c8934",
     "entrypoint":  "EderaAutoCall.exe"
 }
 
