@@ -1,10 +1,10 @@
 {
     "schema":  1,
     "channel":  "stable",
-    "version":  "1.7.1",
-    "published_at":  "2026-08-25T11:49:20.7199877+02:00",
+    "version":  "1.7.2",
+    "published_at":  "2026-08-25T13:24:31.1223095+02:00",
     "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.7.1",
+    "notes":  "Aggiornamento EderaAutoCall 1.7.2",
     "release_notes":  [
                           {
                               "version":  "1.3.0",
@@ -224,9 +224,23 @@
                                               "NR e Gestione manuale protetti dai doppi clic e dagli eventi fuori ordine.",
                                               "Pulizia automatica delle vecchie build e conservazione di un solo backup di ripristino."
                                           ]
+                          },
+                          {
+                              "version":  "1.7.2",
+                              "changes":  [
+                                              "Il contatto successivo si apre soltanto dopo NR o Gestione manuale completata.",
+                                              "Una scheda chiusa o cambiata dal CRM non viene piu scambiata per un esito completato.",
+                                              "Se la chiamata non parte, la stessa scheda viene ritentata una volta e poi il range si ferma senza scorrere gli altri contatti.",
+                                              "Le schede duplicate o rimaste orfane dopo un errore vengono chiuse automaticamente.",
+                                              "Eliminati i cinque ritorni consecutivi della pagina CRM che potevano sommare decine di secondi.",
+                                              "Ritorno rapido all\u0027elenco con un solo tentativo e recupero diretto limitato a quattro secondi.",
+                                              "Registro AutoCall salvato anche su disco e diagnostica dettagliata inviata al portale Master.",
+                                              "Comunicazione con ChromeDriver limitata per evitare attese indefinite sui PC piu lenti."
+                                          ]
                           }
                       ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.7.1/EderaAutoCall-1.7.1.zip",
-    "sha256":  "36e7fed6f92fa4470ab10cf04466e7425c7dd0c09a748e26d785ed9cff5e4c90",
+    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.7.2/EderaAutoCall-1.7.2.zip",
+    "sha256":  "ff609df410d306d9b5bc61bc4ea903a2766d883393222c8ff24aeced89490b69",
     "entrypoint":  "EderaAutoCall.exe"
 }
+
