@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.7.4",
-  "published_at": "2026-08-26T09:32:07.7305870+02:00",
+  "version": "1.7.5",
+  "published_at": "2026-08-26T11:11:05.2097885+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.7.4",
+  "notes": "Aggiornamento EderaAutoCall 1.7.5",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -261,10 +261,19 @@
         "L'aggiornamento attende i controlli di Windows e riprova automaticamente i file temporaneamente occupati.",
         "Un processo EderaAutoCall rimasto in background viene chiuso in sicurezza prima dell'installazione."
       ]
+    },
+    {
+      "version": "1.7.5",
+      "changes": [
+        "Corretto il falso riconoscimento del campo Scadenza documento come contenuto di Stati Pratica.",
+        "Dopo NR la linguetta Stati Pratica viene aperta realmente prima di cercare Primo contatto o Attesa doc.",
+        "La nota NR e la nuova scadenza vengono salvate nello stato scelto senza chiudere la sessione.",
+        "Il riconoscimento e stato verificato direttamente sulla struttura reale del CRM."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.7.4/EderaAutoCall-1.7.4.zip",
-  "sha256": "ca16aaa214b581996b8bd90ef7b952d615b9ca5081c8ca0ffc5c1474e59a6fcf",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.7.5/EderaAutoCall-1.7.5.zip",
+  "sha256": "397927501fddf3c21867381c0f6cbf2d357eb119cc38a8926141057d9d6df420",
   "entrypoint": "EderaAutoCall.exe"
 }
 
