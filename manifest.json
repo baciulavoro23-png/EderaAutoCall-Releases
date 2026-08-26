@@ -1,259 +1,270 @@
 {
-    "schema":  1,
-    "channel":  "stable",
-    "version":  "1.7.3",
-    "published_at":  "2026-08-25T14:42:35.6298429+02:00",
-    "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.7.3",
-    "release_notes":  [
-                          {
-                              "version":  "1.3.0",
-                              "changes":  [
-                                              "Note delle chiamate personalizzabili da Modifica messaggi e note.",
-                                              "Salvataggio note con priorita Primo contatto, Attesa doc e infine Note.",
-                                              "Scorrimento con rotellina nelle schermate Agenda e Strumenti.",
-                                              "Miglioramenti di stabilita per i bot CRM e WhatsApp."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.0",
-                              "changes":  [
-                                              "Popup prima dell\u0027aggiornamento con elenco completo delle novita.",
-                                              "Pulsanti Riavvia e aggiorna oppure Ricordamelo piu tardi.",
-                                              "Controllo delle chiamate su quattro giorni distinti, non sul numero di note.",
-                                              "Dopo la quarta giornata la nota viene salvata e la scheda passa in gestione manuale.",
-                                              "Auto scadenza dal popup: RECALL, INT+AVANTI CON o INT+AVANTI SENZA."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.1",
-                              "changes":  [
-                                              "Lista competitor Art. 39 aggiornata dal nuovo file aziendale.",
-                                              "Aggiunte procedure, esempi e indicazioni di tempistica.",
-                                              "Ricerca migliorata per denominazioni alternative e vecchi nomi.",
-                                              "Esiti mancanti nel file segnalati come Da verificare."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.2",
-                              "changes":  [
-                                              "Pulsanti del popup di aggiornamento sempre visibili.",
-                                              "Riquadro delle novita scorrevole anche con lo zoom di Windows.",
-                                              "Invio avvia l\u0027aggiornamento ed Esc chiude l\u0027avviso.",
-                                              "Il rinvio viene registrato solo scegliendo Ricordamelo piu tardi."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.3",
-                              "changes":  [
-                                              "Il pulsante Recall semplice ora si chiama Sveglia.",
-                                              "Nuovi tipi: lead, nominativo, cliente, firma, vendita e CS.",
-                                              "Le sveglie gia salvate vengono conservate durante l\u0027aggiornamento."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.4",
-                              "changes":  [
-                                              "Nuova Guida completa organizzata per argomenti e schemi operativi.",
-                                              "Tutorial illustrato al primo avvio con la mascotte Eddy.",
-                                              "Apertura ed evidenziazione automatica delle funzioni durante il tutorial.",
-                                              "La Guida adatta i contenuti alla disponibilita della sezione Firme."
-                                          ]
-                          },
-                          {
-                              "version":  "1.4.5",
-                              "changes":  [
-                                              "Nuovo selettore grafico dell\u0027orario per le Sveglie.",
-                                              "Tutorial ed evidenziazioni adattivi quando la finestra cambia monitor.",
-                                              "Guida proporzionata anche sugli schermi piu piccoli.",
-                                              "La mascotte ufficiale si presenta con il nome Eddy."
-                                          ]
-                          },
-                          {
-                              "version":  "1.5.0",
-                              "changes":  [
-                                              "Nuovo assistente Eddy con riconoscimento vocale in italiano.",
-                                              "Comandi per navigazione, Sveglie, AutoCall, WhatsApp ed esiti chiamata.",
-                                              "Risposte pronunciate e alternativa testuale sempre disponibile.",
-                                              "Conferma obbligatoria prima delle azioni operative sensibili.",
-                                              "Nuova sezione della Guida con comandi, privacy e modalita d\u0027uso."
-                                          ]
-                          },
-                          {
-                              "version":  "1.5.1",
-                              "changes":  [
-                                              "Eddy usa il motore vocale moderno di Windows 11 quando quello classico non vede l\u0027italiano.",
-                                              "Riconoscimento corretto dei pacchetti vocali italiani gia installati.",
-                                              "Messaggi distinti per lingua, consenso vocale online e permesso microfono.",
-                                              "Nuovo pulsante Impostazioni voce nel pannello di Eddy."
-                                          ]
-                          },
-                          {
-                              "version":  "2.0.0",
-                              "changes":  [
-                                              "Eddy comprende richieste formulate liberamente, senza comandi rigidi.",
-                                              "Nuova voce maschile italiana Microsoft Cosimo, piu calda e naturale.",
-                                              "Apertura autonoma di nuove schede Chrome controllate da Eddy.",
-                                              "Ricerca CRM per telefono oppure cognome e nome.",
-                                              "Apertura degli stati pratica e scrittura di testo libero in posizione.",
-                                              "Invio WhatsApp dalla scheda corrente con conferma obbligatoria.",
-                                              "Chiave AI protetta da Windows e modalita locale sempre disponibile."
-                                          ]
-                          },
-                          {
-                              "version":  "1.5.2",
-                              "changes":  [
-                                              "La regola di scadenza conta solo quattro note su quattro giorni diversi in Primo contatto.",
-                                              "Le note di Attesa doc e della scheda Note non influiscono piu sulla soglia.",
-                                              "Riconoscimento della cornetta verde e rossa piu compatibile con le versioni di Phone Link sugli altri PC.",
-                                              "Nuovo pulsante Verifica telefono con diagnosi guidata di Collegamento al telefono.",
-                                              "Corretto il rilascio del manifesto: l\u0027avviso di aggiornamento torna disponibile agli utenti."
-                                          ]
-                          },
-                          {
-                              "version":  "1.5.3",
-                              "changes":  [
-                                              "Controllo della cornetta verde e rossa di Collegamento al telefono piu compatibile tra PC diversi.",
-                                              "Nuova spunta per inviare WhatsApp anche su Primo contatto e Attesa doc.",
-                                              "Nuovo tipo LEAD MIX: include i lead con e senza icona del messaggio.",
-                                              "Statistiche di fine sessione con chiamate, durata, velocita e percentuale di risposta.",
-                                              "Storico delle sessioni e medie complessive consultabili da AutoCall.",
-                                              "Aggiornamento automatico corretto anche dopo un\u0027installazione manuale.",
-                                              "Rimossa la configurazione WhatsApp API non utilizzata."
-                                          ]
-                          },
-                          {
-                              "version":  "1.5.4",
-                              "changes":  [
-                                              "Nuovi interruttori grafici WA bloccato e Manda WA in AutoCall.",
-                                              "Finestre Task mattina e Task giornata completamente ridisegnate.",
-                                              "Eddy diventa un pulsante animato e apre direttamente l\u0027assistente vocale.",
-                                              "Interfaccia dell\u0027assistente vocale piu chiara, moderna e scorrevole.",
-                                              "Eddy e animato nell\u0027assistente, nella Guida e nel tutorial.",
-                                              "La sezione Recall contatti dell\u0027Agenda ora si chiama Sveglie.",
-                                              "Inclusa la correzione Phone Link con doppio motore UIA e Win32 nativo.",
-                                              "L\u0027aggiornamento ora chiude e attende correttamente la versione precedente prima di sostituirla.",
-                                              "Se Windows blocca l\u0027installazione viene mostrato l\u0027errore reale, senza riaprire silenziosamente la vecchia versione."
-                                          ]
-                          },
-                          {
-                              "version":  "1.5.5",
-                              "changes":  [
-                                              "Eliminata la modalita Senza stato - Oggi 16:00.",
-                                              "Da Modifica messaggi e note puoi scegliere oggi o domani e l\u0027orario del ricontatto.",
-                                              "La scelta viene applicata ai Senza stato e a Primo contatto / Attesa doc dopo la segreteria."
-                                          ]
-                          },
-                          {
-                              "version":  "1.6.0",
-                              "changes":  [
-                                              "Nuovo accesso personale con password e cambio obbligatorio al primo ingresso.",
-                                              "Il Master puo creare utenti, abilitare altri Master e reimpostare le password.",
-                                              "Registro completo delle attivita e sincronizzazione con il Portale Master.",
-                                              "AutoCall usa la gestione manuale come predefinita e prosegue automaticamente solo con NR.",
-                                              "Senza stato e ora una voce unica; data e ora del ricontatto sono liberamente configurabili."
-                                          ]
-                          },
-                          {
-                              "version":  "1.6.1",
-                              "changes":  [
-                                              "Accesso a schermata intera e funzioni bloccate fino all\u0027autenticazione.",
-                                              "Il nome utente si inserisce manualmente e il login non mostra l\u0027elenco dei profili.",
-                                              "Ricordami ridisegnato e protetto nell\u0027app e nel Portale Master.",
-                                              "I profili creati nell\u0027app compaiono subito nel portale.",
-                                              "La sezione Utenti e invisibile agli operatori ed e protetta anche all\u0027apertura.",
-                                              "Gli avvisi del Master hanno Eddy, animazione prioritaria e un suono diverso dalle Sveglie.",
-                                              "Suoneria delle sveglie personalizzabile con un file audio scelto dall\u0027utente.",
-                                              "Un solo programma: la sezione Firme digitali appare esclusivamente agli utenti abilitati dal Master."
-                                          ]
-                          },
-                          {
-                              "version":  "1.6.2",
-                              "changes":  [
-                                              "Nuovi utenti e reset password del Master vengono sincronizzati automaticamente su tutti i PC.",
-                                              "Le password non vengono mai trasmesse: viene replicata solo l\u0027impronta crittografica protetta.",
-                                              "Al primo avvio l\u0027app aggiorna gli account prima di mostrare la schermata di accesso.",
-                                              "L\u0027eliminazione definitiva dal Portale Master revoca anche il profilo dalle app aggiornate."
-                                          ]
-                          },
-                          {
-                              "version":  "1.6.3",
-                              "changes":  [
-                                              "Il campo Utente del login Ã¨ sempre libero: puoi scrivere qualsiasi profilo.",
-                                              "Baciu non viene piÃ¹ precompilato nÃ© bloccato nella schermata di accesso.",
-                                              "Alla prima configurazione puoi scegliere anche il nome del primo Master."
-                                          ]
-                          },
-                          {
-                              "version":  "1.6.5",
-                              "changes":  [
-                                              "App e Portale Master usano ora lo stesso archivio centrale di utenti e attivitÃ .",
-                                              "Aggiunto Logout nella sezione Guida.",
-                                              "Dopo l\u0027aggiornamento viene richiesto un nuovo accesso una sola volta."
-                                          ]
-                          },
-                          {
-                              "version":  "1.6.6",
-                              "changes":  [
-                                              "Presenza online aggiornata automaticamente finchÃ© l\u0027app resta aperta.",
-                                              "Logout spostato nella Guida in una posizione sempre visibile."
-                                          ]
-                          },
-                          {
-                              "version":  "1.6.7",
-                              "changes":  [
-                                              "Ogni utente viene registrato online immediatamente dopo l\u0027accesso."
-                                          ]
-                          },
-                          {
-                              "version":  "1.6.9",
-                              "changes":  [
-                                              "Le credenziali centralizzate vengono applicate correttamente prima del login su ogni PC."
-                                          ]
-                          },
-                          {
-                              "version":  "1.7.1",
-                              "changes":  [
-                                              "Avvio ottimizzato: Agenda subito disponibile e sezioni caricate solo al primo utilizzo.",
-                                              "AutoCall e WhatsApp condividono una sola sessione Chrome per ridurre il consumo di memoria.",
-                                              "Assistente vocale rimosso; il pulsante animato di Eddy apre la Guida separata e scorrevole.",
-                                              "Logout conservato nella Guida di Eddy.",
-                                              "Sincronizzazione alleggerita e protetta dai cicli sovrapposti.",
-                                              "Pulsante NR ripristinato e attivo subito, con passaggio al contatto successivo molto piu rapido.",
-                                              "Stati Pratica stabilizzato con controllo rapido, recupero automatico e uscita sicura senza bloccare il range.",
-                                              "NR e Gestione manuale protetti dai doppi clic e dagli eventi fuori ordine.",
-                                              "Pulizia automatica delle vecchie build e conservazione di un solo backup di ripristino."
-                                          ]
-                          },
-                          {
-                              "version":  "1.7.2",
-                              "changes":  [
-                                              "Il contatto successivo si apre soltanto dopo NR o Gestione manuale completata.",
-                                              "Una scheda chiusa o cambiata dal CRM non viene piÃ¹ scambiata per un esito completato.",
-                                              "Se la chiamata non parte, la stessa scheda viene ritentata una volta e poi il range si ferma senza scorrere gli altri contatti.",
-                                              "Le schede duplicate o rimaste orfane dopo un errore vengono chiuse automaticamente.",
-                                              "Eliminati i cinque ritorni consecutivi della pagina CRM che potevano sommare decine di secondi.",
-                                              "Ritorno rapido all\u0027elenco con un solo tentativo e recupero diretto limitato a quattro secondi.",
-                                              "Registro AutoCall salvato anche su disco e diagnostica dettagliata inviata al portale Master.",
-                                              "Comunicazione con ChromeDriver limitata per evitare attese indefinite sui PC piÃ¹ lenti."
-                                          ]
-                          },
-                          {
-                              "version":  "1.7.3",
-                              "changes":  [
-                                              "Agenda rimossa e AutoCall aperto subito, senza controlli di task o sveglie in sottofondo.",
-                                              "Tutti i flussi AutoCall condividono lo stesso ciclo rapido e protetto.",
-                                              "Cornetta verde premuta fisicamente con ricerca mirata; eliminati i falsi clic riusciti.",
-                                              "Chiusura chiamata immediata tramite comando ufficiale di Collegamento al telefono.",
-                                              "NR salva una sola volta usando stato e cronologia giÃ  letti, senza riaprire ripetutamente la pratica.",
-                                              "Conferma del salvataggio limitata a meno di due secondi e nessuna attesa indefinita.",
-                                              "Se chiamata, chiusura o salvataggio falliscono, AutoCall resta sul contatto corrente e non apre altre schede.",
-                                              "Corretto il blocco della scadenza automatica dopo quattro giorni."
-                                          ]
-                          }
-                      ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.7.3/EderaAutoCall-1.7.3.zip",
-    "sha256":  "d1a2646550fb3e95d49168c7f2cfbcfb3bdfd51eb8c4b942de2106134f1c8934",
-    "entrypoint":  "EderaAutoCall.exe"
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.7.4",
+  "published_at": "2026-08-26T09:32:07.7305870+02:00",
+  "mandatory": false,
+  "notes": "Aggiornamento EderaAutoCall 1.7.4",
+  "release_notes": [
+    {
+      "version": "1.3.0",
+      "changes": [
+        "Note delle chiamate personalizzabili da Modifica messaggi e note.",
+        "Salvataggio note con priorita Primo contatto, Attesa doc e infine Note.",
+        "Scorrimento con rotellina nelle schermate Agenda e Strumenti.",
+        "Miglioramenti di stabilita per i bot CRM e WhatsApp."
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "changes": [
+        "Popup prima dell'aggiornamento con elenco completo delle novita.",
+        "Pulsanti Riavvia e aggiorna oppure Ricordamelo piu tardi.",
+        "Controllo delle chiamate su quattro giorni distinti, non sul numero di note.",
+        "Dopo la quarta giornata la nota viene salvata e la scheda passa in gestione manuale.",
+        "Auto scadenza dal popup: RECALL, INT+AVANTI CON o INT+AVANTI SENZA."
+      ]
+    },
+    {
+      "version": "1.4.1",
+      "changes": [
+        "Lista competitor Art. 39 aggiornata dal nuovo file aziendale.",
+        "Aggiunte procedure, esempi e indicazioni di tempistica.",
+        "Ricerca migliorata per denominazioni alternative e vecchi nomi.",
+        "Esiti mancanti nel file segnalati come Da verificare."
+      ]
+    },
+    {
+      "version": "1.4.2",
+      "changes": [
+        "Pulsanti del popup di aggiornamento sempre visibili.",
+        "Riquadro delle novita scorrevole anche con lo zoom di Windows.",
+        "Invio avvia l'aggiornamento ed Esc chiude l'avviso.",
+        "Il rinvio viene registrato solo scegliendo Ricordamelo piu tardi."
+      ]
+    },
+    {
+      "version": "1.4.3",
+      "changes": [
+        "Il pulsante Recall semplice ora si chiama Sveglia.",
+        "Nuovi tipi: lead, nominativo, cliente, firma, vendita e CS.",
+        "Le sveglie gia salvate vengono conservate durante l'aggiornamento."
+      ]
+    },
+    {
+      "version": "1.4.4",
+      "changes": [
+        "Nuova Guida completa organizzata per argomenti e schemi operativi.",
+        "Tutorial illustrato al primo avvio con la mascotte Eddy.",
+        "Apertura ed evidenziazione automatica delle funzioni durante il tutorial.",
+        "La Guida adatta i contenuti alla disponibilita della sezione Firme."
+      ]
+    },
+    {
+      "version": "1.4.5",
+      "changes": [
+        "Nuovo selettore grafico dell'orario per le Sveglie.",
+        "Tutorial ed evidenziazioni adattivi quando la finestra cambia monitor.",
+        "Guida proporzionata anche sugli schermi piu piccoli.",
+        "La mascotte ufficiale si presenta con il nome Eddy."
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "changes": [
+        "Nuovo assistente Eddy con riconoscimento vocale in italiano.",
+        "Comandi per navigazione, Sveglie, AutoCall, WhatsApp ed esiti chiamata.",
+        "Risposte pronunciate e alternativa testuale sempre disponibile.",
+        "Conferma obbligatoria prima delle azioni operative sensibili.",
+        "Nuova sezione della Guida con comandi, privacy e modalita d'uso."
+      ]
+    },
+    {
+      "version": "1.5.1",
+      "changes": [
+        "Eddy usa il motore vocale moderno di Windows 11 quando quello classico non vede l'italiano.",
+        "Riconoscimento corretto dei pacchetti vocali italiani gia installati.",
+        "Messaggi distinti per lingua, consenso vocale online e permesso microfono.",
+        "Nuovo pulsante Impostazioni voce nel pannello di Eddy."
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "changes": [
+        "Eddy comprende richieste formulate liberamente, senza comandi rigidi.",
+        "Nuova voce maschile italiana Microsoft Cosimo, piu calda e naturale.",
+        "Apertura autonoma di nuove schede Chrome controllate da Eddy.",
+        "Ricerca CRM per telefono oppure cognome e nome.",
+        "Apertura degli stati pratica e scrittura di testo libero in posizione.",
+        "Invio WhatsApp dalla scheda corrente con conferma obbligatoria.",
+        "Chiave AI protetta da Windows e modalita locale sempre disponibile."
+      ]
+    },
+    {
+      "version": "1.5.2",
+      "changes": [
+        "La regola di scadenza conta solo quattro note su quattro giorni diversi in Primo contatto.",
+        "Le note di Attesa doc e della scheda Note non influiscono piu sulla soglia.",
+        "Riconoscimento della cornetta verde e rossa piu compatibile con le versioni di Phone Link sugli altri PC.",
+        "Nuovo pulsante Verifica telefono con diagnosi guidata di Collegamento al telefono.",
+        "Corretto il rilascio del manifesto: l'avviso di aggiornamento torna disponibile agli utenti."
+      ]
+    },
+    {
+      "version": "1.5.3",
+      "changes": [
+        "Controllo della cornetta verde e rossa di Collegamento al telefono piu compatibile tra PC diversi.",
+        "Nuova spunta per inviare WhatsApp anche su Primo contatto e Attesa doc.",
+        "Nuovo tipo LEAD MIX: include i lead con e senza icona del messaggio.",
+        "Statistiche di fine sessione con chiamate, durata, velocita e percentuale di risposta.",
+        "Storico delle sessioni e medie complessive consultabili da AutoCall.",
+        "Aggiornamento automatico corretto anche dopo un'installazione manuale.",
+        "Rimossa la configurazione WhatsApp API non utilizzata."
+      ]
+    },
+    {
+      "version": "1.5.4",
+      "changes": [
+        "Nuovi interruttori grafici WA bloccato e Manda WA in AutoCall.",
+        "Finestre Task mattina e Task giornata completamente ridisegnate.",
+        "Eddy diventa un pulsante animato e apre direttamente l'assistente vocale.",
+        "Interfaccia dell'assistente vocale piu chiara, moderna e scorrevole.",
+        "Eddy e animato nell'assistente, nella Guida e nel tutorial.",
+        "La sezione Recall contatti dell'Agenda ora si chiama Sveglie.",
+        "Inclusa la correzione Phone Link con doppio motore UIA e Win32 nativo.",
+        "L'aggiornamento ora chiude e attende correttamente la versione precedente prima di sostituirla.",
+        "Se Windows blocca l'installazione viene mostrato l'errore reale, senza riaprire silenziosamente la vecchia versione."
+      ]
+    },
+    {
+      "version": "1.5.5",
+      "changes": [
+        "Eliminata la modalita Senza stato - Oggi 16:00.",
+        "Da Modifica messaggi e note puoi scegliere oggi o domani e l'orario del ricontatto.",
+        "La scelta viene applicata ai Senza stato e a Primo contatto / Attesa doc dopo la segreteria."
+      ]
+    },
+    {
+      "version": "1.6.0",
+      "changes": [
+        "Nuovo accesso personale con password e cambio obbligatorio al primo ingresso.",
+        "Il Master puo creare utenti, abilitare altri Master e reimpostare le password.",
+        "Registro completo delle attivita e sincronizzazione con il Portale Master.",
+        "AutoCall usa la gestione manuale come predefinita e prosegue automaticamente solo con NR.",
+        "Senza stato e ora una voce unica; data e ora del ricontatto sono liberamente configurabili."
+      ]
+    },
+    {
+      "version": "1.6.1",
+      "changes": [
+        "Accesso a schermata intera e funzioni bloccate fino all'autenticazione.",
+        "Il nome utente si inserisce manualmente e il login non mostra l'elenco dei profili.",
+        "Ricordami ridisegnato e protetto nell'app e nel Portale Master.",
+        "I profili creati nell'app compaiono subito nel portale.",
+        "La sezione Utenti e invisibile agli operatori ed e protetta anche all'apertura.",
+        "Gli avvisi del Master hanno Eddy, animazione prioritaria e un suono diverso dalle Sveglie.",
+        "Suoneria delle sveglie personalizzabile con un file audio scelto dall'utente.",
+        "Un solo programma: la sezione Firme digitali appare esclusivamente agli utenti abilitati dal Master."
+      ]
+    },
+    {
+      "version": "1.6.2",
+      "changes": [
+        "Nuovi utenti e reset password del Master vengono sincronizzati automaticamente su tutti i PC.",
+        "Le password non vengono mai trasmesse: viene replicata solo l'impronta crittografica protetta.",
+        "Al primo avvio l'app aggiorna gli account prima di mostrare la schermata di accesso.",
+        "L'eliminazione definitiva dal Portale Master revoca anche il profilo dalle app aggiornate."
+      ]
+    },
+    {
+      "version": "1.6.3",
+      "changes": [
+        "Il campo Utente del login è sempre libero: puoi scrivere qualsiasi profilo.",
+        "Baciu non viene più precompilato né bloccato nella schermata di accesso.",
+        "Alla prima configurazione puoi scegliere anche il nome del primo Master."
+      ]
+    },
+    {
+      "version": "1.6.5",
+      "changes": [
+        "App e Portale Master usano ora lo stesso archivio centrale di utenti e attività.",
+        "Aggiunto Logout nella sezione Guida.",
+        "Dopo l'aggiornamento viene richiesto un nuovo accesso una sola volta."
+      ]
+    },
+    {
+      "version": "1.6.6",
+      "changes": [
+        "Presenza online aggiornata automaticamente finché l'app resta aperta.",
+        "Logout spostato nella Guida in una posizione sempre visibile."
+      ]
+    },
+    {
+      "version": "1.6.7",
+      "changes": [
+        "Ogni utente viene registrato online immediatamente dopo l'accesso."
+      ]
+    },
+    {
+      "version": "1.6.9",
+      "changes": [
+        "Le credenziali centralizzate vengono applicate correttamente prima del login su ogni PC."
+      ]
+    },
+    {
+      "version": "1.7.1",
+      "changes": [
+        "Avvio ottimizzato: Agenda subito disponibile e sezioni caricate solo al primo utilizzo.",
+        "AutoCall e WhatsApp condividono una sola sessione Chrome per ridurre il consumo di memoria.",
+        "Assistente vocale rimosso; il pulsante animato di Eddy apre la Guida separata e scorrevole.",
+        "Logout conservato nella Guida di Eddy.",
+        "Sincronizzazione alleggerita e protetta dai cicli sovrapposti.",
+        "Pulsante NR ripristinato e attivo subito, con passaggio al contatto successivo molto piu rapido.",
+        "Stati Pratica stabilizzato con controllo rapido, recupero automatico e uscita sicura senza bloccare il range.",
+        "NR e Gestione manuale protetti dai doppi clic e dagli eventi fuori ordine.",
+        "Pulizia automatica delle vecchie build e conservazione di un solo backup di ripristino."
+      ]
+    },
+    {
+      "version": "1.7.2",
+      "changes": [
+        "Il contatto successivo si apre soltanto dopo NR o Gestione manuale completata.",
+        "Una scheda chiusa o cambiata dal CRM non viene più scambiata per un esito completato.",
+        "Se la chiamata non parte, la stessa scheda viene ritentata una volta e poi il range si ferma senza scorrere gli altri contatti.",
+        "Le schede duplicate o rimaste orfane dopo un errore vengono chiuse automaticamente.",
+        "Eliminati i cinque ritorni consecutivi della pagina CRM che potevano sommare decine di secondi.",
+        "Ritorno rapido all'elenco con un solo tentativo e recupero diretto limitato a quattro secondi.",
+        "Registro AutoCall salvato anche su disco e diagnostica dettagliata inviata al portale Master.",
+        "Comunicazione con ChromeDriver limitata per evitare attese indefinite sui PC più lenti."
+      ]
+    },
+    {
+      "version": "1.7.3",
+      "changes": [
+        "Agenda rimossa e AutoCall aperto subito, senza controlli di task o sveglie in sottofondo.",
+        "Tutti i flussi AutoCall condividono lo stesso ciclo rapido e protetto.",
+        "Cornetta verde premuta fisicamente con ricerca mirata; eliminati i falsi clic riusciti.",
+        "Chiusura chiamata immediata tramite comando ufficiale di Collegamento al telefono.",
+        "NR salva una sola volta usando stato e cronologia già letti, senza riaprire ripetutamente la pratica.",
+        "Conferma del salvataggio limitata a meno di due secondi e nessuna attesa indefinita.",
+        "Se chiamata, chiusura o salvataggio falliscono, AutoCall resta sul contatto corrente e non apre altre schede.",
+        "Corretto il blocco della scadenza automatica dopo quattro giorni."
+      ]
+    },
+    {
+      "version": "1.7.4",
+      "changes": [
+        "Primo contatto e Attesa doc non aprono Stati Pratica prima della chiamata.",
+        "Dopo NR viene usato esclusivamente lo stato scelto nel range, senza crearne o cercarne un altro.",
+        "Le copie nascoste delle tabelle CRM non vengono piu scambiate per stati visibili.",
+        "Lo storico dei quattro giorni viene letto solo dopo NR e non puo bloccare la chiamata.",
+        "L'aggiornamento attende i controlli di Windows e riprova automaticamente i file temporaneamente occupati.",
+        "Un processo EderaAutoCall rimasto in background viene chiuso in sicurezza prima dell'installazione."
+      ]
+    }
+  ],
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.7.4/EderaAutoCall-1.7.4.zip",
+  "sha256": "ca16aaa214b581996b8bd90ef7b952d615b9ca5081c8ca0ffc5c1474e59a6fcf",
+  "entrypoint": "EderaAutoCall.exe"
 }
 
