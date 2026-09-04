@@ -1,10 +1,10 @@
 {
     "schema":  1,
     "channel":  "stable",
-    "version":  "1.7.6",
-    "published_at":  "2026-08-27T14:51:02.9627413+02:00",
+    "version":  "1.7.7",
+    "published_at":  "2026-09-04T16:30:11.2563765+02:00",
     "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.7.6",
+    "notes":  "Aggiornamento EderaAutoCall 1.7.7",
     "release_notes":  [
                           {
                               "version":  "1.3.0",
@@ -279,10 +279,18 @@
                                               "Per ogni scheda vengono inviati al Portale Master contatto, nota e tempi di gestione al secondo.",
                                               "Il controllo resta leggero e viene sospeso durante AutoCall per non rallentare le chiamate."
                                           ]
+                          },
+                          {
+                              "version":  "1.7.7",
+                              "changes":  [
+                                              "Corretto il monitor degli Stati Pratica: non sposta piÃ¹ la scheda Chrome mentre l\u0027operatore usa il CRM.",
+                                              "Menu a tendina e campi nota restano utilizzabili: la telemetria viene letta solo quando Chrome non Ã¨ in primo piano.",
+                                              "Il monitoraggio di Attesa documenti, Documenti arrivati, Post vendita e Gestione cliente resta attivo."
+                                          ]
                           }
                       ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.7.6/EderaAutoCall-1.7.6.zip",
-    "sha256":  "c0ea2180b21bdfd660cd3476df7b5cf36ce7ec71f4c042ac7236d89ae1e38a0c",
+    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.7.7/EderaAutoCall-1.7.7.zip",
+    "sha256":  "ac4000076a421d1ea0b914f5cc5a4c0d13d7345af617a675f4cc30f5ef7df28e",
     "entrypoint":  "EderaAutoCall.exe"
 }
 
