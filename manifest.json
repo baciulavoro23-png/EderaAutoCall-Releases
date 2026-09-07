@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.8.1",
-  "published_at": "2026-09-07T10:52:54.2690171+02:00",
+  "version": "1.8.2",
+  "published_at": "2026-09-07T13:08:39.6162013+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.8.1",
+  "notes": "Aggiornamento EderaAutoCall 1.8.2",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -311,9 +311,18 @@
         "Accesso, primo avvio, modifica password, messaggi e note con controlli adattivi e pulsanti sempre raggiungibili.",
         "Popup aggiornamento adattato allo schermo, recupero in caso di errore e pubblicazione protetta dei pacchetti."
       ]
+    },
+    {
+      "version": "1.8.2",
+      "changes": [
+        "Scorrimento graduale con rotellina e touchpad in AutoCall, WhatsApp, Strumenti e finestre scorrevoli.",
+        "Ridotti ridisegni e ricalcoli del layout durante scorrimento e uso degli interruttori.",
+        "Usa intervallo con icona azzurra dedicata; WA bloccato rosso, Chiama a vuoto arancione, Manuale completa viola.",
+        "Manuale completa con cursore dedicato; Manda WA mantiene la freccia verde."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.1/EderaAutoCall-1.8.1.zip",
-  "sha256": "a334fdd58619f7ef5cbd0afd13205dc26717972c308a46ca87f7c2d339a64a25",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.2/EderaAutoCall-1.8.2.zip",
+  "sha256": "33f0b1973607f71e027e77d4d93f7e31b7e73ee4527ee9f8c8a44a1d621f489d",
   "entrypoint": "EderaAutoCall.exe"
 }
