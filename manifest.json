@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.8.0",
-  "published_at": "2026-09-04T15:37:03.793Z",
+  "version": "1.8.1",
+  "published_at": "2026-09-07T10:52:54.2690171+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.8.0",
+  "notes": "Aggiornamento EderaAutoCall 1.8.1",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -179,15 +179,15 @@
     {
       "version": "1.6.3",
       "changes": [
-        "Il campo Utente del login Ã¨ sempre libero: puoi scrivere qualsiasi profilo.",
-        "Baciu non viene piÃ¹ precompilato nÃ© bloccato nella schermata di accesso.",
+        "Il campo Utente del login è sempre libero: puoi scrivere qualsiasi profilo.",
+        "Baciu non viene più precompilato né bloccato nella schermata di accesso.",
         "Alla prima configurazione puoi scegliere anche il nome del primo Master."
       ]
     },
     {
       "version": "1.6.5",
       "changes": [
-        "App e Portale Master usano ora lo stesso archivio centrale di utenti e attivitÃ .",
+        "App e Portale Master usano ora lo stesso archivio centrale di utenti e attività.",
         "Aggiunto Logout nella sezione Guida.",
         "Dopo l'aggiornamento viene richiesto un nuovo accesso una sola volta."
       ]
@@ -195,7 +195,7 @@
     {
       "version": "1.6.6",
       "changes": [
-        "Presenza online aggiornata automaticamente finchÃ© l'app resta aperta.",
+        "Presenza online aggiornata automaticamente finché l'app resta aperta.",
         "Logout spostato nella Guida in una posizione sempre visibile."
       ]
     },
@@ -229,13 +229,13 @@
       "version": "1.7.2",
       "changes": [
         "Il contatto successivo si apre soltanto dopo NR o Gestione manuale completata.",
-        "Una scheda chiusa o cambiata dal CRM non viene piÃ¹ scambiata per un esito completato.",
+        "Una scheda chiusa o cambiata dal CRM non viene più scambiata per un esito completato.",
         "Se la chiamata non parte, la stessa scheda viene ritentata una volta e poi il range si ferma senza scorrere gli altri contatti.",
         "Le schede duplicate o rimaste orfane dopo un errore vengono chiuse automaticamente.",
         "Eliminati i cinque ritorni consecutivi della pagina CRM che potevano sommare decine di secondi.",
         "Ritorno rapido all'elenco con un solo tentativo e recupero diretto limitato a quattro secondi.",
         "Registro AutoCall salvato anche su disco e diagnostica dettagliata inviata al portale Master.",
-        "Comunicazione con ChromeDriver limitata per evitare attese indefinite sui PC piÃ¹ lenti."
+        "Comunicazione con ChromeDriver limitata per evitare attese indefinite sui PC più lenti."
       ]
     },
     {
@@ -245,7 +245,7 @@
         "Tutti i flussi AutoCall condividono lo stesso ciclo rapido e protetto.",
         "Cornetta verde premuta fisicamente con ricerca mirata; eliminati i falsi clic riusciti.",
         "Chiusura chiamata immediata tramite comando ufficiale di Collegamento al telefono.",
-        "NR salva una sola volta usando stato e cronologia giÃ  letti, senza riaprire ripetutamente la pratica.",
+        "NR salva una sola volta usando stato e cronologia già letti, senza riaprire ripetutamente la pratica.",
         "Conferma del salvataggio limitata a meno di due secondi e nessuna attesa indefinita.",
         "Se chiamata, chiusura o salvataggio falliscono, AutoCall resta sul contatto corrente e non apre altre schede.",
         "Corretto il blocco della scadenza automatica dopo quattro giorni."
@@ -283,8 +283,8 @@
     {
       "version": "1.7.7",
       "changes": [
-        "Corretto il monitor degli Stati Pratica: non sposta piÃ¹ la scheda Chrome mentre l'operatore usa il CRM.",
-        "Menu a tendina e campi nota restano utilizzabili: la telemetria viene letta solo quando Chrome non Ã¨ in primo piano.",
+        "Corretto il monitor degli Stati Pratica: non sposta più la scheda Chrome mentre l'operatore usa il CRM.",
+        "Menu a tendina e campi nota restano utilizzabili: la telemetria viene letta solo quando Chrome non è in primo piano.",
         "Il monitoraggio di Attesa documenti, Documenti arrivati, Post vendita e Gestione cliente resta attivo."
       ]
     },
@@ -292,13 +292,28 @@
       "version": "1.8.0",
       "changes": [
         "Nuovo Edera Call Bridge: AutoCall invia le chiamate al telefono associato senza dipendere da Collegamento al telefono.",
-        "Android avvia la chiamata dopo il consenso; su iPhone compare la conferma manuale richiesta da Apple.",
-        "Associazione per profilo, stato online e blocco delle chiamate duplicate.",
-        "Collegamento al telefono resta disponibile come compatibilita per chi non ha ancora associato il Bridge."
+        "Android avvia la chiamata dopo il consenso; su iPhone compare sempre la conferma di sistema richiesta da Apple.",
+        "Associazione sicura per profilo, indicatore online e blocco delle richieste duplicate.",
+        "Phone Link resta disponibile solo come compatibilita per chi non ha ancora associato un Bridge."
+      ]
+    },
+    {
+      "version": "1.8.1",
+      "changes": [
+        "Chiama a vuoto: tutto l'elenco in ordine, con scelta Senza stato o Primo contatto e conferma NR/manuale.",
+        "LEAD, ESENDEX e LEAD MIX: Usa intervallo sceglie da/a; senza intervallo chiama tutti i lead del tipo scelto.",
+        "Senza stato salta Primo contatto gia aperto; altrimenti lo crea o riapre. WhatsApp parte solo se richiesto.",
+        "Manuale completa: apri tu una nuova scheda e parte solo la chiamata Bridge, senza note o scadenze automatiche.",
+        "Menu Manda WA con i messaggi personalizzati e conferma del destinatario in Manuale completa.",
+        "AutoCall riordinato e collegamento telefono adattato allo schermo, con pulsanti accessibili.",
+        "Accesso ricordato mantenuto dopo gli aggiornamenti e registro a schermo piu leggero nelle sessioni lunghe.",
+        "Statistiche manuali con esiti non rilevati e protezioni contro chiamate duplicate o ripetizioni dopo errori incerti.",
+        "Accesso, primo avvio, modifica password, messaggi e note con controlli adattivi e pulsanti sempre raggiungibili.",
+        "Popup aggiornamento adattato allo schermo, recupero in caso di errore e pubblicazione protetta dei pacchetti."
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.0/EderaAutoCall-1.8.0.zip",
-  "sha256": "1990009fd464d16ea6efd83251ff3437864ee148a16a21be6765974f44728f7c",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.1/EderaAutoCall-1.8.1.zip",
+  "sha256": "a334fdd58619f7ef5cbd0afd13205dc26717972c308a46ca87f7c2d339a64a25",
   "entrypoint": "EderaAutoCall.exe"
 }
