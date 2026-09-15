@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.8.2",
-  "published_at": "2026-09-07T13:08:39.6162013+02:00",
+  "version": "1.8.3",
+  "published_at": "2026-09-15T11:54:31.7509620+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.8.2",
+  "notes": "Aggiornamento EderaAutoCall 1.8.3",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,15 @@
       ]
     },
     {
+      "version": "1.8.3",
+      "changes": [
+        "Corrette le disconnessioni causate dalla sincronizzazione di password obsolete tra PC.",
+        "Le password nuove non vengono piu sostituite da copie precedenti degli account.",
+        "I cambi password vengono conservati e ritentati automaticamente quando torna la connessione.",
+        "Mantenute le sessioni Ricordami valide; i reset del Master continuano a revocare gli accessi precedenti."
+      ]
+    },
+    {
       "version": "1.8.2",
       "changes": [
         "Scorrimento graduale con rotellina e touchpad in AutoCall, WhatsApp, Strumenti e finestre scorrevoli.",
@@ -322,7 +331,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.2/EderaAutoCall-1.8.2.zip",
-  "sha256": "33f0b1973607f71e027e77d4d93f7e31b7e73ee4527ee9f8c8a44a1d621f489d",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.3/EderaAutoCall-1.8.3.zip",
+  "sha256": "c0c724a4779127ae9215dccf68c9ebb7b02f71baea70095dc6971409432a3a02",
   "entrypoint": "EderaAutoCall.exe"
 }
