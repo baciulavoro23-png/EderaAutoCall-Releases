@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.8.4",
-  "published_at": "2026-09-15T17:08:11.1187656+02:00",
+  "version": "1.8.5",
+  "published_at": "2026-09-16T10:51:25.6733091+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.8.4",
+  "notes": "Aggiornamento EderaAutoCall 1.8.5",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,14 @@
       ]
     },
     {
+      "version": "1.8.5",
+      "changes": [
+        "Il pulsante Registra chiamata usa la sessione già aperta in Autocall: non viene più richiesta una seconda password.",
+        "Sessione temporanea protetta, valida al massimo 12 ore e revocata da logout, reset password, disattivazione o cancellazione account.",
+        "Corretto il messaggio generico del servizio registrazioni sul portale Cloudflare."
+      ]
+    },
+    {
       "version": "1.8.4",
       "changes": [
         "Registrazione opzionale delle chiamate selezionate, con entrambe le voci tramite servizio telefonico Twilio.",
@@ -340,7 +348,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.4/EderaAutoCall-1.8.4.zip",
-  "sha256": "59589939c852b0bc8257a24a8efb42e7533f856f422a087e7230666b3c3b33c2",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.5/EderaAutoCall-1.8.5.zip",
+  "sha256": "4a2339e613f1423961eab57b5fea4d784ee64c168792af49293415abe1d1cfe6",
   "entrypoint": "EderaAutoCall.exe"
 }
