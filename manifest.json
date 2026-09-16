@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.8.3",
-  "published_at": "2026-09-15T11:54:31.7509620+02:00",
+  "version": "1.8.4",
+  "published_at": "2026-09-15T17:08:11.1187656+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.8.3",
+  "notes": "Aggiornamento EderaAutoCall 1.8.4",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,15 @@
       ]
     },
     {
+      "version": "1.8.4",
+      "changes": [
+        "Registrazione opzionale delle chiamate selezionate, con entrambe le voci tramite servizio telefonico Twilio.",
+        "Archivio privato Registrazioni chiamate con ascolto, download WAV, eliminazione e dettagli agente/cliente/data/durata.",
+        "Gestione chiamate non risposte, annullate, recupero dopo disconnessione e protezione dagli avvii duplicati.",
+        "Richiede configurazione Twilio sul portale e associazione del numero telefonico di ciascun agente."
+      ]
+    },
+    {
       "version": "1.8.3",
       "changes": [
         "Corrette le disconnessioni causate dalla sincronizzazione di password obsolete tra PC.",
@@ -331,7 +340,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.3/EderaAutoCall-1.8.3.zip",
-  "sha256": "c0c724a4779127ae9215dccf68c9ebb7b02f71baea70095dc6971409432a3a02",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.4/EderaAutoCall-1.8.4.zip",
+  "sha256": "59589939c852b0bc8257a24a8efb42e7533f856f422a087e7230666b3c3b33c2",
   "entrypoint": "EderaAutoCall.exe"
 }
