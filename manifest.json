@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.8.5",
-  "published_at": "2026-09-16T10:51:25.6733091+02:00",
+  "version": "1.8.7",
+  "published_at": "2026-09-21T17:41:23.3821431+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.8.5",
+  "notes": "Aggiornamento EderaAutoCall 1.8.7",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,29 @@
       ]
     },
     {
+      "version": "1.8.7",
+      "changes": [
+        "Attesa doc: riconoscimento delle sezioni chiuse o caricate in ritardo, anche quando il CRM le chiama Attesa documenti; nota e scadenza salvate nello stato selezionato.",
+        "Senza stato: corretto il clic su Salva dopo il cambio data, anche nei calendari senza Fatto; attesa dell'effettivo salvataggio del nuovo Primo contatto.",
+        "Il salvataggio manuale viene riconosciuto senza un secondo invio; se il CRM rifiuta la modifica, AutoCall resta sulla scheda.",
+        "Rimossi il pulsante Registra chiamata, la sezione Registrazioni e la configurazione delle chiamate PC con Phone Link.",
+        "Le chiamate passano dal telefono associato con Call Bridge; le vecchie preferenze PC non riattivano Phone Link.",
+        "Nessuna acquisizione audio delle telefonate e nessun servizio esterno di registrazione.",
+        "Conservati account, accesso ricordato, configurazione Call Bridge e file delle registrazioni precedenti."
+      ]
+    },
+    {
+      "version": "1.8.6",
+      "changes": [
+        "Personalizzazione: scegli chiamate dal cellulare oppure dal PC; preferenza salvata per ogni operatore su questo dispositivo.",
+        "Scelta applicata a range, Manuale completa e sveglie, senza domande ripetute o passaggi automatici a un altro collegamento.",
+        "Configurazione delle chiamate PC con Collegamento al telefono, Bluetooth e SIM esistente; nessun servizio telefonico aggiuntivo.",
+        "Registrazioni opzionali locali delle chiamate PC: microfono e audio digitale separati, archivio protetto con ascolto, download WAV ed eliminazione.",
+        "Nessun servizio telefonico esterno o seconda password. Dispositivi audio selezionabili in Personalizzazione; arresto automatico quando Phone Link espone fine chiamata.",
+        "Se lo stato della chiamata non e leggibile o manca uno dei due canali audio, la registrazione viene interrotta con un messaggio esplicito."
+      ]
+    },
+    {
       "version": "1.8.5",
       "changes": [
         "Il pulsante Registra chiamata usa la sessione già aperta in Autocall: non viene più richiesta una seconda password.",
@@ -348,7 +371,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.5/EderaAutoCall-1.8.5.zip",
-  "sha256": "4a2339e613f1423961eab57b5fea4d784ee64c168792af49293415abe1d1cfe6",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.7/EderaAutoCall-1.8.7.zip",
+  "sha256": "9c15de1651d32ce30fed677c4f4b411d67de9049b893677d143338254e490d72",
   "entrypoint": "EderaAutoCall.exe"
 }
