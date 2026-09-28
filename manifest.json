@@ -1,10 +1,10 @@
 {
     "schema":  1,
     "channel":  "stable",
-    "version":  "1.8.9",
-    "published_at":  "2026-09-28T12:19:07.5249074+02:00",
+    "version":  "1.8.10",
+    "published_at":  "2026-09-28T13:10:52.0838802+02:00",
     "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.8.9",
+    "notes":  "Aggiornamento EderaAutoCall 1.8.10",
     "release_notes":  [
                           {
                               "version":  "1.3.0",
@@ -313,6 +313,14 @@
                                           ]
                           },
                           {
+                              "version":  "1.8.10",
+                              "changes":  [
+                                              "Tutorial guidato e Guida di Eddy aggiornati: Call Bridge, modalita manuali, tasto verde, Attesa Doc, WhatsApp e ricontatto.",
+                                              "Nuova guida al calendario vendite: FATTO PREVENTIVO, PRT NO CS, venditore dal profilo, cliente, P IVA e dati da completare.",
+                                              "Il tutorial aggiornato viene riproposto anche a chi aveva gia completato la vecchia guida."
+                                          ]
+                          },
+                          {
                               "version":  "1.8.9",
                               "changes":  [
                                               "L\u0027apertura degli stati FATTO PREVENTIVO e PRT NO CS inserisce la pratica nel calendario vendite.",
@@ -391,7 +399,7 @@
                                           ]
                           }
                       ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.9/EderaAutoCall-1.8.9.zip",
-    "sha256":  "dd17e6f35faaa5844a1a0f45dae77f14739275b167fac11b535c91a8d3d08e49",
+    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.10/EderaAutoCall-1.8.10.zip",
+    "sha256":  "2126ecfc18b2da0bb0b3eef4d06f7b9e32a3806c9a5ba9d4b202fe6eb3c095a3",
     "entrypoint":  "EderaAutoCall.exe"
 }
