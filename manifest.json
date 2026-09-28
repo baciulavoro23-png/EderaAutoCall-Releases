@@ -1,10 +1,10 @@
 {
     "schema":  1,
     "channel":  "stable",
-    "version":  "1.8.8",
-    "published_at":  "2026-09-23T15:47:08.6767749+02:00",
+    "version":  "1.8.9",
+    "published_at":  "2026-09-28T12:19:07.5249074+02:00",
     "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.8.8",
+    "notes":  "Aggiornamento EderaAutoCall 1.8.9",
     "release_notes":  [
                           {
                               "version":  "1.3.0",
@@ -313,6 +313,15 @@
                                           ]
                           },
                           {
+                              "version":  "1.8.9",
+                              "changes":  [
+                                              "L\u0027apertura degli stati FATTO PREVENTIVO e PRT NO CS inserisce la pratica nel calendario vendite.",
+                                              "Venditore dal profilo Autocall, nome cliente e partita IVA dalla voce P IVA della sezione Azienda; gli altri dati restano da compilare.",
+                                              "Riaperture e passaggi fra i due stati non duplicano le vendite e non sovrascrivono i dati completati manualmente.",
+                                              "Invio in background con coda persistente e ritentativi automatici in caso di connessione assente."
+                                          ]
+                          },
+                          {
                               "version":  "1.8.8",
                               "changes":  [
                                               "Ridotti i ricalcoli grafici e i timer durante gli spostamenti della finestra; rimossi gli ascoltatori rimasti attivi dopo la chiusura dei pannelli.",
@@ -382,7 +391,7 @@
                                           ]
                           }
                       ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.8/EderaAutoCall-1.8.8.zip",
-    "sha256":  "eb4f161f641df69bd22c3ed5c07c3f0bfdc37282a5d4e3051c9d561d8e06d209",
+    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.9/EderaAutoCall-1.8.9.zip",
+    "sha256":  "dd17e6f35faaa5844a1a0f45dae77f14739275b167fac11b535c91a8d3d08e49",
     "entrypoint":  "EderaAutoCall.exe"
 }
