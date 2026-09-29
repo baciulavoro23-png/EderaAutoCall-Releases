@@ -1,10 +1,10 @@
 {
     "schema":  1,
     "channel":  "stable",
-    "version":  "1.8.12",
-    "published_at":  "2026-09-29T10:19:07.7769985+02:00",
+    "version":  "1.8.13",
+    "published_at":  "2026-09-29T14:42:49.8316560+02:00",
     "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.8.12",
+    "notes":  "Aggiornamento EderaAutoCall 1.8.13",
     "release_notes":  [
                           {
                               "version":  "1.3.0",
@@ -313,6 +313,14 @@
                                           ]
                           },
                           {
+                              "version":  "1.8.13",
+                              "changes":  [
+                                              "Riaprire FATTO PREVENTIVO o PRT NO CS verifica nuovamente l\u0027inserimento della pratica nel calendario.",
+                                              "Se la voce era stata rimossa, viene ripristinata; se esiste, resta unica con i dati manuali invariati.",
+                                              "Una pratica gia inviata non viene piu ignorata: mantenuti primo venditore, data originale e P IVA."
+                                          ]
+                          },
+                          {
                               "version":  "1.8.12",
                               "changes":  [
                                               "Corretto l\u0027invio al calendario: le richieste si identificano come Autocall per essere accettate dal servizio.",
@@ -415,7 +423,7 @@
                                           ]
                           }
                       ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.12/EderaAutoCall-1.8.12.zip",
-    "sha256":  "854686af7fd202875e53586328dd984fbed366480a43453c520d6cb21f76c820",
+    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.13/EderaAutoCall-1.8.13.zip",
+    "sha256":  "f97a376453d1b4c5f2b9fde34715508defa419fed4c358bbfc17f4241c1646b8",
     "entrypoint":  "EderaAutoCall.exe"
 }
