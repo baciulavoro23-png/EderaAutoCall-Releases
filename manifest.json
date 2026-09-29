@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.9.1",
-  "published_at": "2026-09-29T16:36:59.8757882+02:00",
+  "version": "1.9.2",
+  "published_at": "2026-09-29T17:21:01.5407189+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.9.1",
+  "notes": "Aggiornamento EderaAutoCall 1.9.2",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,14 @@
       ]
     },
     {
+      "version": "1.9.2",
+      "changes": [
+        "Corretto l'invio al calendario quando il CRM cambia scheda o indirizzo dopo il salvataggio di FATTO PREVENTIVO o PRT NO CS.",
+        "Il salvataggio resta associato al numero della pratica, anche dopo un ricaricamento, senza creare doppioni o importare altre pratiche.",
+        "Riconnessione automatica e avviso visibile se si interrompe il rilevamento degli stati in Chrome CRM; gli invii in coda continuano a essere ritentati."
+      ]
+    },
+    {
       "version": "1.9.1",
       "changes": [
         "Icona Edera Autocall piu leggibile, con tagli dedicati alle dimensioni della barra applicazioni e allo zoom di Windows.",
@@ -441,7 +449,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.1/EderaAutoCall-1.9.1.zip",
-  "sha256": "57e751efa089789dffe69e715a4e7bb5b144032bb4fbac9064e33bff48e359fe",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.2/EderaAutoCall-1.9.2.zip",
+  "sha256": "598ffa8c5d1932e1f048d4790b7c6341b8247abce2324a0117f3a50827c95b69",
   "entrypoint": "EderaAutoCall.exe"
 }
