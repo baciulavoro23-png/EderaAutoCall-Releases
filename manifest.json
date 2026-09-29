@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.9.0",
-  "published_at": "2026-09-29T15:48:50.6764187+02:00",
+  "version": "1.9.1",
+  "published_at": "2026-09-29T16:36:59.8757882+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.9.0",
+  "notes": "Aggiornamento EderaAutoCall 1.9.1",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,14 @@
       ]
     },
     {
+      "version": "1.9.1",
+      "changes": [
+        "Icona Edera Autocall piu leggibile, con tagli dedicati alle dimensioni della barra applicazioni e allo zoom di Windows.",
+        "Aggiornamento automatico delle icone dei collegamenti desktop, menu Start e barra applicazioni di questa installazione.",
+        "Icona e identita Windows uniformi per applicazione e finestra di aggiornamento."
+      ]
+    },
+    {
       "version": "1.9.0",
       "changes": [
         "Nuovo Edera Autocall: logo ispirato al marchio aziendale, tema antracite e blu, caratteri e icone piu leggibili.",
@@ -433,7 +441,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.0/EderaAutoCall-1.9.0.zip",
-  "sha256": "4f171102fefdc410a3d7adea2122002c16270694f64cc74c86b4be60734f1823",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.1/EderaAutoCall-1.9.1.zip",
+  "sha256": "57e751efa089789dffe69e715a4e7bb5b144032bb4fbac9064e33bff48e359fe",
   "entrypoint": "EderaAutoCall.exe"
 }
