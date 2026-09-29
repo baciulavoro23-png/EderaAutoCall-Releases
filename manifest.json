@@ -1,10 +1,10 @@
 {
     "schema":  1,
     "channel":  "stable",
-    "version":  "1.8.11",
-    "published_at":  "2026-09-29T10:01:07.2811621+02:00",
+    "version":  "1.8.12",
+    "published_at":  "2026-09-29T10:19:07.7769985+02:00",
     "mandatory":  false,
-    "notes":  "Aggiornamento EderaAutoCall 1.8.11",
+    "notes":  "Aggiornamento EderaAutoCall 1.8.12",
     "release_notes":  [
                           {
                               "version":  "1.3.0",
@@ -313,6 +313,14 @@
                                           ]
                           },
                           {
+                              "version":  "1.8.12",
+                              "changes":  [
+                                              "Corretto l\u0027invio al calendario: le richieste si identificano come Autocall per essere accettate dal servizio.",
+                                              "Le vendite rimaste in coda vengono recuperate automaticamente senza duplicati.",
+                                              "Il Registro bot distingue un invio rifiutato dal calendario da un problema di connessione. Le vendite compaiono nel giorno di creazione: premi Oggi per visualizzarle."
+                                          ]
+                          },
+                          {
                               "version":  "1.8.11",
                               "changes":  [
                                               "Corretto il calendario vendite: Salva in Crea nuovo stato inserisce la firma per FATTO PREVENTIVO e PRT NO CS.",
@@ -407,7 +415,7 @@
                                           ]
                           }
                       ],
-    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.11/EderaAutoCall-1.8.11.zip",
-    "sha256":  "c730c83f706eca8e7349ff287f9cc546328e10f3fe775f78c5d5e818befea5f2",
+    "package_url":  "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.8.12/EderaAutoCall-1.8.12.zip",
+    "sha256":  "854686af7fd202875e53586328dd984fbed366480a43453c520d6cb21f76c820",
     "entrypoint":  "EderaAutoCall.exe"
 }
