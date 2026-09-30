@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.9.3",
-  "published_at": "2026-09-30T13:05:24.4262610+02:00",
+  "version": "1.9.4",
+  "published_at": "2026-09-30T14:25:27.3429723+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.9.3",
+  "notes": "Aggiornamento EderaAutoCall 1.9.4",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,14 @@
       ]
     },
     {
+      "version": "1.9.4",
+      "changes": [
+        "Eddy animato con movimento morbido, oscillazione e alone nei colori del tema.",
+        "Avvisi Master con orbita luminosa e indicatore di attenzione pulsante.",
+        "Animazioni anche nell'icona Guida e nel tutorial, sospese nelle finestre nascoste."
+      ]
+    },
+    {
       "version": "1.9.3",
       "changes": [
         "Nuovo avatar Eddy professionale con icona nitida per Guida, tutorial, temi e logout.",
@@ -458,7 +466,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.3/EderaAutoCall-1.9.3.zip",
-  "sha256": "5f08a1a6bb380b058450aea3931420f7bedac5c9801a3436a710bc9a00920b52",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.4/EderaAutoCall-1.9.4.zip",
+  "sha256": "43787ac460230acd7e199766a113e299225049824ee174f7ac645d40c9c02989",
   "entrypoint": "EderaAutoCall.exe"
 }
