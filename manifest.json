@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.9.2",
-  "published_at": "2026-09-29T17:21:01.5407189+02:00",
+  "version": "1.9.3",
+  "published_at": "2026-09-30T13:05:24.4262610+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.9.2",
+  "notes": "Aggiornamento EderaAutoCall 1.9.3",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,15 @@
       ]
     },
     {
+      "version": "1.9.3",
+      "changes": [
+        "Nuovo avatar Eddy professionale con icona nitida per Guida, tutorial, temi e logout.",
+        "Cinque palette: Blu notte, Chiaro, Rosa, Petrolio e Viola, salvate per ogni profilo.",
+        "Cambio tema immediato anche per avatar e messaggi Master, senza perdere il lavoro aperto.",
+        "Tutorial aggiornato e avvisi Master rinnovati con messaggi lunghi scorrevoli."
+      ]
+    },
+    {
       "version": "1.9.2",
       "changes": [
         "Corretto l'invio al calendario quando il CRM cambia scheda o indirizzo dopo il salvataggio di FATTO PREVENTIVO o PRT NO CS.",
@@ -449,7 +458,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.2/EderaAutoCall-1.9.2.zip",
-  "sha256": "598ffa8c5d1932e1f048d4790b7c6341b8247abce2324a0117f3a50827c95b69",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.3/EderaAutoCall-1.9.3.zip",
+  "sha256": "5f08a1a6bb380b058450aea3931420f7bedac5c9801a3436a710bc9a00920b52",
   "entrypoint": "EderaAutoCall.exe"
 }
