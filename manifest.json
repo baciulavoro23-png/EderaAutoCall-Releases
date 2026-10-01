@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.9.5",
-  "published_at": "2026-09-30T15:28:32.1200064+02:00",
+  "version": "1.9.6",
+  "published_at": "2026-10-01T10:20:32.9585208+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.9.5",
+  "notes": "Aggiornamento EderaAutoCall 1.9.6",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,13 @@
       ]
     },
     {
+      "version": "1.9.6",
+      "changes": [
+        "Nuove personalizzazioni dell'aspetto con avatar e logo coordinati.",
+        "Decorazioni leggere e gestione delle preferenze grafiche per ogni profilo."
+      ]
+    },
+    {
       "version": "1.9.5",
       "changes": [
         "Interfaccia alleggerita e spostamento tra schermi senza correzioni durante il trascinamento.",
@@ -475,7 +482,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.5/EderaAutoCall-1.9.5.zip",
-  "sha256": "d523fd40f83d9c57bd5332a1840f6a4d2227264e7635016777cf5a7c12ebba79",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.6/EderaAutoCall-1.9.6.zip",
+  "sha256": "9534840fdf42047ffbdd8dd772cc0ff1e29a6699d0e7ebe4c173d00c0b1facc2",
   "entrypoint": "EderaAutoCall.exe"
 }
