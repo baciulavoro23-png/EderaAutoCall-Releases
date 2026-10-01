@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.9.6",
-  "published_at": "2026-10-01T10:20:32.9585208+02:00",
+  "version": "1.9.8",
+  "published_at": "2026-10-01T14:09:33.4145518+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.9.6",
+  "notes": "Aggiornamento EderaAutoCall 1.9.8",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,22 @@
       ]
     },
     {
+      "version": "1.9.8",
+      "changes": [
+        "Personalizzazioni grafiche corrette con avatar 3D pulito ed emblema integrato.",
+        "Sfondo bicolore sfumato e pannelli coordinati, senza animazioni aggiuntive.",
+        "Mantenuta la verifica del salvataggio CRM durante il passaggio a KO LEAD."
+      ]
+    },
+    {
+      "version": "1.9.7",
+      "changes": [
+        "KO LEAD verifica la chiusura salvata di Primo contatto prima di creare il nuovo stato.",
+        "Gestione migliorata dei salvataggi CRM lenti e controllo degli stati dopo il passaggio.",
+        "Nuove personalizzazioni grafiche con avatar, logo e tipografia coordinati."
+      ]
+    },
+    {
       "version": "1.9.6",
       "changes": [
         "Nuove personalizzazioni dell'aspetto con avatar e logo coordinati.",
@@ -482,7 +498,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.6/EderaAutoCall-1.9.6.zip",
-  "sha256": "9534840fdf42047ffbdd8dd772cc0ff1e29a6699d0e7ebe4c173d00c0b1facc2",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.8/EderaAutoCall-1.9.8.zip",
+  "sha256": "e96ca735808dfbeb38b694586ceb03615591aca2f7636be16347784797657a4f",
   "entrypoint": "EderaAutoCall.exe"
 }
