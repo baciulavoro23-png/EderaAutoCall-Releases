@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.9.8",
-  "published_at": "2026-10-01T14:09:33.4145518+02:00",
+  "version": "1.9.9",
+  "published_at": "2026-10-02T12:37:50.8268779+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.9.8",
+  "notes": "Aggiornamento EderaAutoCall 1.9.9",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,14 @@
       ]
     },
     {
+      "version": "1.9.9",
+      "changes": [
+        "Nuova personalizzazione nascosta con avatar 3D, emblemi e tipografia coordinati.",
+        "Decorazioni dettagliate e leggere, senza animazioni aggiuntive dello sfondo.",
+        "Sblocco e preferenze mantenuti separati per ciascun profilo."
+      ]
+    },
+    {
       "version": "1.9.8",
       "changes": [
         "Personalizzazioni grafiche corrette con avatar 3D pulito ed emblema integrato.",
@@ -498,7 +506,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.8/EderaAutoCall-1.9.8.zip",
-  "sha256": "e96ca735808dfbeb38b694586ceb03615591aca2f7636be16347784797657a4f",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.9/EderaAutoCall-1.9.9.zip",
+  "sha256": "43cfdd289ca51388bece0db85aa91c61a6a80548dca391ba1265a78c3524afee",
   "entrypoint": "EderaAutoCall.exe"
 }
