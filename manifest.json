@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.9.9",
-  "published_at": "2026-10-02T12:37:50.8268779+02:00",
+  "version": "1.9.10",
+  "published_at": "2026-10-02T15:51:20.5809449+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.9.9",
+  "notes": "Aggiornamento EderaAutoCall 1.9.10",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,14 @@
       ]
     },
     {
+      "version": "1.9.10",
+      "changes": [
+        "Corretta la finestra bloccata al login con una personalizzazione grafica gia attiva.",
+        "Ridisegno dello sfondo differito fino al completamento del layout e superfici grafiche riutilizzate.",
+        "Nuova personalizzazione nascosta con avatar 3D, logo e scena coordinati; sblocco separato per profilo."
+      ]
+    },
+    {
       "version": "1.9.9",
       "changes": [
         "Nuova personalizzazione nascosta con avatar 3D, emblemi e tipografia coordinati.",
@@ -506,7 +514,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.9/EderaAutoCall-1.9.9.zip",
-  "sha256": "43cfdd289ca51388bece0db85aa91c61a6a80548dca391ba1265a78c3524afee",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.10/EderaAutoCall-1.9.10.zip",
+  "sha256": "a9994eef0718ed65452f2eb6e0b2e85ee6613629ec1ca63d39a012e2aefc0b83",
   "entrypoint": "EderaAutoCall.exe"
 }
