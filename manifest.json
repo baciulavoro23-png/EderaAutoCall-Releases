@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.0.1",
-  "published_at": "2026-10-05T10:15:39.2719121+02:00",
+  "version": "2.0.2",
+  "published_at": "2026-10-05T10:42:56.7978492+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.0.1",
+  "notes": "Aggiornamento EderaAutoCall 2.0.2",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -543,9 +543,17 @@
         "Scelta manuale solo fra piu pratiche rosse omonime; la finestra mostra soltanto i risultati da distinguere.",
         "Contatti senza corrispondenza saltati e segnalati nel riepilogo, senza richieste di conferma. Guida aggiornata."
       ]
+    },
+    {
+      "version": "2.0.2",
+      "changes": [
+        "Mail dal calendario: il pulsante sulla singola firma ATC apre Autocall, legge Rata e Durata nel gestionale e prepara Thunderbird.",
+        "Collegamento locale con Autocall gia aperto, coda delle richieste e protezione dai doppi clic. Nessun invio automatico.",
+        "Verifica della firma e dell'avviso ATC prima di aprire la mail; scelta soltanto tra piu righe rosse omonime. Guida aggiornata."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.1/EderaAutoCall-2.0.1.zip",
-  "sha256": "5b1a6ea8449cdb6b414799bbc85e63c8b20035614870bbc6183b4d0353d10bce",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.2/EderaAutoCall-2.0.2.zip",
+  "sha256": "9aa73d90de089fda22820ee0c4ef4e0e0ae20ca4f6609c004b4ef48147c58bc1",
   "entrypoint": "EderaAutoCall.exe"
 }
