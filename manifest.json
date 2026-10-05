@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.0.0",
-  "published_at": "2026-10-05T09:44:41.0560873+02:00",
+  "version": "2.0.1",
+  "published_at": "2026-10-05T10:15:39.2719121+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.0.0",
+  "notes": "Aggiornamento EderaAutoCall 2.0.1",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -534,9 +534,18 @@
         "Usa intervallo con icona azzurra dedicata; WA bloccato rosso, Chiama a vuoto arancione, Manuale completa viola.",
         "Manuale completa con cursore dedicato; Manda WA mantiene la freccia verde."
       ]
+    },
+    {
+      "version": "2.0.1",
+      "changes": [
+        "Firme e Mail ATC: ricerca solo tra le righe rosse con cognome e nome corrispondenti; righe bianche escluse.",
+        "Apertura automatica dell'unica pratica corrispondente, anche in presenza di vecchie pratiche archiviate.",
+        "Scelta manuale solo fra piu pratiche rosse omonime; la finestra mostra soltanto i risultati da distinguere.",
+        "Contatti senza corrispondenza saltati e segnalati nel riepilogo, senza richieste di conferma. Guida aggiornata."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.0-firme/EderaAutoCall-2.0.0.zip",
-  "sha256": "695f6e449ea3a9525b1e46c511f7b36207dc1ee55908419f710e253913e78aa7",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.1/EderaAutoCall-2.0.1.zip",
+  "sha256": "5b1a6ea8449cdb6b414799bbc85e63c8b20035614870bbc6183b4d0353d10bce",
   "entrypoint": "EderaAutoCall.exe"
 }
