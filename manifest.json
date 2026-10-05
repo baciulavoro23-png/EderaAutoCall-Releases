@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.0.6",
-  "published_at": "2026-10-05T16:49:29.3092361+02:00",
+  "version": "2.0.7",
+  "published_at": "2026-10-05T17:49:57.9260395+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.0.6",
+  "notes": "Aggiornamento EderaAutoCall 2.0.7",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -582,9 +582,18 @@
         "Prima delle modifiche verifica quella singola firma oggi, nella settimana corrente o successiva. Se assente, lascia gli stati invariati.",
         "Un passaggio incompleto resta recuperabile; la lista prosegue con le altre pratiche. Guida aggiornata."
       ]
+    },
+    {
+      "version": "2.0.7",
+      "changes": [
+        "Firme e Mail ATC: correzione errore stale element dopo la scelta tra omonimi, riapertura della pratica scelta da riferimenti aggiornati.",
+        "Nuovo tema segreto Big con Eddy militare, basco rosso, mimetica, stemma del carro armato e logo dedicato.",
+        "Animazione leggera del fucile con proiettili; pausa quando la schermata e nascosta o durante lo spostamento della finestra.",
+        "Palette, Eddy e logo coordinati nel Call Bridge. Il tema resta nascosto fino allo sblocco nel menu di Eddy."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.6/EderaAutoCall-2.0.6.zip",
-  "sha256": "5a792f15c8ced4cc2bdd0ab0e928125fbf65d97c3192ef4cbdd7daf549bf63eb",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.7/EderaAutoCall-2.0.7.zip",
+  "sha256": "788924cc5691a56ef08b5129cde3f8c829a8791e1f1d77a5776ef3dbabada457",
   "entrypoint": "EderaAutoCall.exe"
 }
