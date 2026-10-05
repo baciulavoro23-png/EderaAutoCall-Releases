@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "version": "2.0.7",
+  "channel": "stable",
+  "platform": "macos",
+  "architecture": "arm64",
+  "minimum_macos": "13.0",
+  "entrypoint": "EderaAutoCall.app/Contents/MacOS/EderaAutoCall",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.7/EderaAutoCall-2.0.7-macos-arm64-update.zip",
+  "sha256": "37e580308a32f2df9d256de1624ddbcd620a4ed4037699c33587a6b0d9f654e4",
+  "mandatory": false,
+  "notes": "Edera Autocall 2.0.7 per macOS: aggiornamento con conservazione di account, dati e temi. Distribuzione gratuita con firma locale, non notarizzata da Apple.",
+  "signing_mode": "adhoc",
+  "notarized": false
+}
