@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.9.12",
-  "published_at": "2026-10-02T19:01:24.4858207+02:00",
+  "version": "1.9.13",
+  "published_at": "2026-10-05T08:45:34.2763015+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.9.12",
+  "notes": "Aggiornamento EderaAutoCall 1.9.13",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -313,6 +313,14 @@
       ]
     },
     {
+      "version": "1.9.13",
+      "changes": [
+        "Nuova personalizzazione segreta Baby Eddy con ciuccio, streetwear e logo coordinato.",
+        "Cameretta azzurra in trasparenza, bambino che gattona e orsacchiotto: immagini statiche e riutilizzate.",
+        "Grafica coordinata su guida, tutorial, messaggi Master e Call Bridge iPhone e Android."
+      ]
+    },
+    {
       "version": "1.9.12",
       "changes": [
         "Nuova personalizzazione segreta ispirata alla mitologia greca con Eddy Zeus, logo, colori e tipografia coordinati.",
@@ -530,7 +538,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.12/EderaAutoCall-1.9.12.zip",
-  "sha256": "a704ef79e9a9fdc11af2583c746528848b902ac9af43aaaa5e47a6dd050574ef",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.13/EderaAutoCall-1.9.13.zip",
+  "sha256": "7cf862f2d8888b41a6d4794ffb1b4a007dd452245225f77dceb41e892a9d79be",
   "entrypoint": "EderaAutoCall.exe"
 }
