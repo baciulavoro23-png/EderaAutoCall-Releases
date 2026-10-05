@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.0.3",
-  "published_at": "2026-10-05T11:50:18.4034678+02:00",
+  "version": "2.0.4",
+  "published_at": "2026-10-05T12:18:40.7699058+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.0.3",
+  "notes": "Aggiornamento EderaAutoCall 2.0.4",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -559,9 +559,15 @@
         "Corretto il riconoscimento delle schede Azienda e Dati Pratica nel CRM per leggere azienda, P IVA, rata e durata.",
         "Verifica del percorso nella build compilata; collegamento mantenuto dopo il riavvio e account e impostazioni conservati."
       ]
+    },
+    {
+      "version": "2.0.4",
+      "changes": [
+        "Mail ATC: rimossa la sigla DS alla fine del testo. La firma personale resta quella configurata in Thunderbird."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.3/EderaAutoCall-2.0.3.zip",
-  "sha256": "84d03d1f1a375406ec233bf1100729bf4811a7e56f5cb374eba15d74547639da",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.4/EderaAutoCall-2.0.4.zip",
+  "sha256": "8fceee7f724cf8947d86d1cbd64fc0f2c5eeb194f79c83ff1a7ba1ed0512fbf1",
   "entrypoint": "EderaAutoCall.exe"
 }
