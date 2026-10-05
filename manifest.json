@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.9.13",
-  "published_at": "2026-10-05T08:45:34.2763015+02:00",
+  "version": "2.0.0",
+  "published_at": "2026-10-05T09:44:41.0560873+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 1.9.13",
+  "notes": "Aggiornamento EderaAutoCall 2.0.0",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -91,13 +91,11 @@
     {
       "version": "2.0.0",
       "changes": [
-        "Eddy comprende richieste formulate liberamente, senza comandi rigidi.",
-        "Nuova voce maschile italiana Microsoft Cosimo, piu calda e naturale.",
-        "Apertura autonoma di nuove schede Chrome controllate da Eddy.",
-        "Ricerca CRM per telefono oppure cognome e nome.",
-        "Apertura degli stati pratica e scrittura di testo libero in posizione.",
-        "Invio WhatsApp dalla scheda corrente con conferma obbligatoria.",
-        "Chiave AI protetta da Windows e modalita locale sempre disponibile."
+        "Firme digitali: controllo delle pratiche della giornata nel calendario, con ricerca CRM solo per cognome.",
+        "CONTRATTO STAMPATO aperto: calendario Caricata, chiusura verificata e apertura FIRMA DIGITALE con scadenza oggi.",
+        "Scelta manuale tra pratiche compatibili, verifica P IVA, riepilogo, Ferma e ripresa dei passaggi incompleti.",
+        "Mail ATC: oggetto e preventivo compilati in Thunderbird con rata e durata del CRM, destinatario e CC fissi. Invio sempre manuale.",
+        "Guida e tutorial aggiornati, operazioni in background per mantenere la finestra reattiva."
       ]
     },
     {
@@ -538,7 +536,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v1.9.13/EderaAutoCall-1.9.13.zip",
-  "sha256": "7cf862f2d8888b41a6d4794ffb1b4a007dd452245225f77dceb41e892a9d79be",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.0-firme/EderaAutoCall-2.0.0.zip",
+  "sha256": "695f6e449ea3a9525b1e46c511f7b36207dc1ee55908419f710e253913e78aa7",
   "entrypoint": "EderaAutoCall.exe"
 }
