@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.0.8",
-  "published_at": "2026-10-06T12:15:03.6245337+02:00",
+  "version": "2.0.9",
+  "published_at": "2026-10-08T12:09:33.7747617+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.0.8",
+  "notes": "Aggiornamento EderaAutoCall 2.0.9",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -600,9 +600,19 @@
         "Un salvataggio con conferma tardiva viene verificato nei dati salvati, senza inviarlo una seconda volta.",
         "Le operazioni incomplete si recuperano al controllo successivo; firme digitali gia aperte conservate e FIRMA ESEGUITA prioritaria."
       ]
+    },
+    {
+      "version": "2.0.9",
+      "changes": [
+        "Accesso: verifica delle credenziali aggiornate a ogni tentativo, anche dopo un reset effettuato a programma aperto.",
+        "Recupero delle credenziali locali rimaste vecchie o con date errate, conservando dati e impostazioni del profilo.",
+        "Messaggi distinti per password errata, profilo disabilitato e problemi di rete; verifica in background senza bloccare la finestra.",
+        "Master: conferma prima di disabilitare un utente; reset della password separato dalla riattivazione dell'accesso.",
+        "SPOSTA: verifica rapida della scadenza salvata e gestione dei caricamenti tardivi del CRM."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.8/EderaAutoCall-2.0.8.zip",
-  "sha256": "75b88a7b96dc3ed26446edf5300d9371917729f0653920e17fc782cd4d7c602b",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.9/EderaAutoCall-2.0.9.zip",
+  "sha256": "204fcb5fba68ecb3ae501557f88bf99b439bbae208f5e383cfdb9d47fcefc5bb",
   "entrypoint": "EderaAutoCall.exe"
 }
