@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.0.9",
-  "published_at": "2026-10-08T12:09:33.7747617+02:00",
+  "version": "2.0.10",
+  "published_at": "2026-10-12T16:21:44.0728470+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.0.9",
+  "notes": "Aggiornamento EderaAutoCall 2.0.10",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -610,9 +610,17 @@
         "Master: conferma prima di disabilitare un utente; reset della password separato dalla riattivazione dell'accesso.",
         "SPOSTA: verifica rapida della scadenza salvata e gestione dei caricamenti tardivi del CRM."
       ]
+    },
+    {
+      "version": "2.0.10",
+      "changes": [
+        "Firme e Mail ATC: ricerca progressiva con le prime due parole, poi tre e cosi via, se il primo tentativo non trova il cliente.",
+        "Cognomi composti recuperati senza usare pratiche bianche o clienti diversi; scelta manuale solo tra pratiche rosse omonime.",
+        "La pratica viene saltata soltanto dopo tutti i tentativi; le schede personali gia aperte vengono conservate."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.9/EderaAutoCall-2.0.9.zip",
-  "sha256": "204fcb5fba68ecb3ae501557f88bf99b439bbae208f5e383cfdb9d47fcefc5bb",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.10/EderaAutoCall-2.0.10.zip",
+  "sha256": "5cf2087e1cf2b3d3fe9764702746c2a2c582ce00426b1045be9339514344335a",
   "entrypoint": "EderaAutoCall.exe"
 }
