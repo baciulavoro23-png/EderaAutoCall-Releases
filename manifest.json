@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.0.11",
-  "published_at": "2026-10-13T12:02:00.7579748+02:00",
+  "version": "2.0.12",
+  "published_at": "2026-10-20T15:28:15.0741751+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.0.11",
+  "notes": "Aggiornamento EderaAutoCall 2.0.12",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -626,9 +626,17 @@
         "FIRMA ESEGUITA aggiorna il calendario a Eseguita anche senza CONTRATTO STAMPATO aperto e ha precedenza su FIRMA DIGITALE.",
         "Stati e scadenze CRM gia presenti restano invariati; il controllo riguarda solo la singola pratica presente nel calendario."
       ]
+    },
+    {
+      "version": "2.0.12",
+      "changes": [
+        "ATTESA DOC: soglia di NR consecutivi scelta a ogni avvio delle chiamate.",
+        "Dopo NR, raggiunta la soglia nello stato aperto, scelta tra auto scadenza classica e gestione manuale.",
+        "Le note degli altri stati non vengono contate; un esito diverso da NR interrompe la serie. Regole dei quattro giorni e KO LEAD invariate."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.11/EderaAutoCall-2.0.11.zip",
-  "sha256": "c656d70c441cd6c79d5b667dc12dee992b760fc469d475d2f3e16b291ece295b",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.0.12/EderaAutoCall-2.0.12.zip",
+  "sha256": "ef973d8af1061018fa2677fd52dfe0417248f9f3bfe867d69814e07f1dc89a10",
   "entrypoint": "EderaAutoCall.exe"
 }
