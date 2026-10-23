@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.1.0",
-  "published_at": "2026-10-22T16:16:36.9781532+02:00",
+  "version": "2.1.1",
+  "published_at": "2026-10-23T13:01:25.8686917+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.1.0",
+  "notes": "Aggiornamento EderaAutoCall 2.1.1",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -643,9 +643,18 @@
         "Cinque GIF locali per Big, Black Clover, Spider Eddy, Mary e Inazuma; nuovo castello e sfondo Mary, logo Inazuma fornito.",
         "Ridotti ricalcoli durante ridimensionamento e paginazione Deep Serch; cache immagini limitate e animazioni sospese quando nascoste."
       ]
+    },
+    {
+      "version": "2.1.1",
+      "changes": [
+        "Nuovi temi scaricabili tramite codice segreto, senza reinstallare Autocall per i temi successivi.",
+        "Temi nascosti fino allo sblocco del singolo account; risorse conservate offline dopo il download.",
+        "Berserk: Gatsu Eddy con armatura e Dragonslayer, sfondo nero consumato, logo dedicato e GIF.",
+        "Download in background, pacchetti grafici verificati e cambio tema piu stabile."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.1.0/EderaAutoCall-2.1.0.zip",
-  "sha256": "ecc1c8e6bb8ab66c0714b78cc6e08e8fd7fbb80a4b7c5ec0e6e00cad5469d5cf",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.1.1/EderaAutoCall-2.1.1.zip",
+  "sha256": "22c9d1bf6c2d9928f7d80df60da798b84feaf031924f9c372c3c41433a720cfd",
   "entrypoint": "EderaAutoCall.exe"
 }
