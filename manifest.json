@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.1.1",
-  "published_at": "2026-10-23T13:01:25.8686917+02:00",
+  "version": "2.1.2",
+  "published_at": "2026-10-23T15:35:26.6998523+02:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.1.1",
+  "notes": "Aggiornamento EderaAutoCall 2.1.2",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -652,9 +652,16 @@
         "Berserk: Gatsu Eddy con armatura e Dragonslayer, sfondo nero consumato, logo dedicato e GIF.",
         "Download in background, pacchetti grafici verificati e cambio tema piu stabile."
       ]
+    },
+    {
+      "version": "2.1.2",
+      "changes": [
+        "KO LEAD: chiusura di PRIMO CONTATTO salvata con il comando specifico dello stato CRM e verificata dopo la rilettura.",
+        "La sessione prosegue al contatto successivo dopo KO LEAD; nessun nuovo KO viene creato se la chiusura non e confermata."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.1.1/EderaAutoCall-2.1.1.zip",
-  "sha256": "22c9d1bf6c2d9928f7d80df60da798b84feaf031924f9c372c3c41433a720cfd",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.1.2/EderaAutoCall-2.1.2.zip",
+  "sha256": "8420560ce8c5bab7a52ba9212e26b4cc999352f1e252ca902dbc7a5e9dfa7af6",
   "entrypoint": "EderaAutoCall.exe"
 }
