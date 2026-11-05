@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.1.4",
-  "published_at": "2026-11-04T12:35:32.0097935+01:00",
+  "version": "2.1.5",
+  "published_at": "2026-11-05T11:05:12.3975276+01:00",
   "mandatory": false,
-  "notes": "Statistiche firme, collegamento Easy e correzione vendite automatiche",
+  "notes": "Aggiornamento EderaAutoCall 2.1.5",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -676,9 +676,19 @@
         "Gli invii precedenti non verificabili vengono conservati per revisione. Le vendite eliminate e gli eventi bloccati dal Master non vengono ripristinati automaticamente.",
         "Inclusi i miglioramenti HTTPS per temi e aggiornamenti su Windows, mantenendo verifica dei certificati, firme e integrita dei pacchetti."
       ]
+    },
+    {
+      "version": "2.1.5",
+      "changes": [
+        "Firme: mese di liquidazione compilato con la Decorrenza principale letta da Easy.",
+        "Ricerca firme e mail piu rapida, con lettura diretta e controlli omonimi in gruppi limitati.",
+        "Scelta automatica dell'unico omonimo con codice fiscale; se piu schede lo riportano viene confrontata la decorrenza nel periodo selezionato.",
+        "La pratica scelta durante il controllo caricate viene ricordata nel calendario e riutilizzata dalle statistiche.",
+        "Controlli aggiuntivi sulle modifiche concorrenti delle firme e delle schede; nessuna assegnazione automatica delle posizioni archiviate."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.1.4/EderaAutoCall-2.1.4.zip",
-  "sha256": "b2e472e46bbd17281b1816f452fe6ddec6932bea66fa22921d708a743ba027c1",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.1.5/EderaAutoCall-2.1.5.zip",
+  "sha256": "f11c2b1e88fa8700f6d45c01e9d61462a9b4625ef135271a06eac0ece2f0dad5",
   "entrypoint": "EderaAutoCall.exe"
 }
