@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.1.6",
-  "published_at": "2026-11-05T15:06:39.6351867+01:00",
+  "version": "2.1.7",
+  "published_at": "2026-11-10T12:25:00.2698952+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.1.6",
+  "notes": "Aggiornamento EderaAutoCall 2.1.7",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -694,9 +694,16 @@
         "Lettura delle provvigioni in percentuale e in euro e dell'indirizzo del domicilio o anagrafico, senza modificare il CRM.",
         "Collegamento conservato nelle vendite e nei domicili, riutilizzato quando viene fissata la firma; controlli contro doppioni e nominativi diversi."
       ]
+    },
+    {
+      "version": "2.1.7",
+      "changes": [
+        "ATTESA DOC: Usa intervallo permette di scegliere il primo e l'ultimo contatto dell'elenco CRM, entrambi inclusi.",
+        "La sessione segue l'ordine del CRM e continua a chiedere la soglia di NR consecutivi per l'auto scadenza."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.1.6/EderaAutoCall-2.1.6.zip",
-  "sha256": "177abcbeaf90900da53cd942df102f9aeccf60ec39572d0ab7643a623358d0b2",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.1.7/EderaAutoCall-2.1.7.zip",
+  "sha256": "676798e2c3c32933d54af8a977afc0377bfda5868b90b99f99e38abf021ffa10",
   "entrypoint": "EderaAutoCall.exe"
 }
