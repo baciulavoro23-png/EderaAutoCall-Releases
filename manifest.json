@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.3.0",
-  "published_at": "2026-11-13T13:59:32.2592798+01:00",
+  "version": "2.3.1",
+  "published_at": "2026-11-13T15:13:47.1732822+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.3.0",
+  "notes": "Aggiornamento EderaAutoCall 2.3.1",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -734,9 +734,17 @@
         "Chiamata singola: feedback immediato e letture CRM ottimizzate, mantenendo i controlli contro destinatari ambigui e doppi invii.",
         "Call Bridge: tema e avatar indipendenti su iPhone e Android, con canale di risveglio opzionale e polling di riserva."
       ]
+    },
+    {
+      "version": "2.3.1",
+      "changes": [
+        "Barre di scorrimento sottili, senza frecce e coordinate al tema in tutto il Calendario, nell'elenco e nelle finestre dei promemoria.",
+        "Icona calendario nel menu laterale e nome del cliente evidenziato in grassetto con un colore piu acceso e leggibile.",
+        "Selezione, rotella, tastiera e doppio clic mantenuti; comando Elimina e relativi permessi invariati."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.3.0/EderaAutoCall-2.3.0.zip",
-  "sha256": "6e0af78a23a6bb8f9dc5d990622d22aa5632668854de14cd20ff17214344c502",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.3.1/EderaAutoCall-2.3.1.zip",
+  "sha256": "8b95182b36104523aeadd9687ee0ee3a34de6ab8bb0705613e172e0925c739c2",
   "entrypoint": "EderaAutoCall.exe"
 }
