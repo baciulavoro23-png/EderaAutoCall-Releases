@@ -5,7 +5,7 @@ Distribuzione ufficiale e aggiornamenti automatici di EderaAutoCall.
 ## Installazione corretta
 
 1. Apri la [versione più recente](https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/latest).
-2. Nella sezione **Assets**, scarica `Installa-EderaAutoCall-VERSIONE.exe` (per la 2.2.0: `Installa-EderaAutoCall-2.2.0.exe`).
+2. Nella sezione **Assets**, scarica `Installa-EderaAutoCall-VERSIONE.exe` (per la 2.3.0: `Installa-EderaAutoCall-2.3.0.exe`).
 3. Esegui l’installer e usa il collegamento **EderaAutoCall** creato sul Desktop.
 
 > Non scaricare **Code → Download ZIP** o **Source code**: contengono solo i file di distribuzione del repository, non l’installer. Lo ZIP `EderaAutoCall-VERSIONE.zip` negli Assets è invece il pacchetto tecnico dell’aggiornamento: non avviare direttamente l’EXE estratto perché non passa dal launcher.
@@ -18,10 +18,22 @@ Chi ha usato in precedenza l’EXE estratto dallo ZIP deve eseguire una sola vol
 
 Se un aggiornamento non compare, chiudi l’app e riaprila dal collegamento installato, verifica la connessione a GitHub e l’eventuale rinvio scelto. È sempre disponibile l’installer nella pagina della versione più recente. Non è necessario disattivare le protezioni di Windows.
 
+## Novità della 2.3.0
+
+Calendario condiviso con promemoria, assegnazioni fra colleghi e collegamenti Easy; notifiche discrete di Eddy; Personalizza con 17 avatar pubblici indipendenti dal tema e suono MP3. Con Autocall completamente chiuso gli avvisi vengono recuperati alla riapertura. Chi usa il precedente Ricordami può dover collegare Agenda una prima volta con la propria password Autocall. La gestione degli account richiede il client aggiornato.
+
 ## Call Bridge mobile
 
-L'APK Android **EderaCallBridge 1.1.4** e incluso nella [release 2.2.0](https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/tag/v2.2.0). Installarlo sopra la versione 1.1.3 senza disinstallare, per conservare l'associazione. Su iPhone la pagina Call Bridge aggiunta alla Home e gia aggiornata sul portale.
+L'APK Android **EderaCallBridge 1.1.5** è incluso nella [release 2.3.0](https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/tag/v2.3.0). Mantiene la stessa identità e firma della 1.1.4: installarlo sopra la precedente, senza disinstallare l'app. Il collaudo dell'aggiornamento su un telefono fisico resta da completare.
 
-## AntoPistolero-Call
+Il Bridge iPhone aggiunto alla Home si aggiorna dal Portal: chiudere e riaprire la pagina per caricare i nuovi file. Grafica, logo e Eddy seguono le preferenze di Autocall. Il server supporta il nuovo canale di risveglio Android; il polling rimane disponibile come riserva.
 
-L'edizione speciale ha un [repository e un installer dedicati](https://github.com/baciulavoro23-png/AntoPistolero-Call-Releases/releases/latest), con installazione e preferenze separate. Non viene distribuita dal canale automatico standard di EderaAutoCall.
+## Tema ANTO
+
+Nella normale versione di Autocall inserire il codice **ANTO** dal menu segreto di Eddy. Il tema scaricabile rimane nascosto fino allo sblocco del singolo account. Scegliere un avatar in Personalizza non sblocca il tema corrispondente.
+
+Le precedenti build separate AntoPistolero-Call restano nel [repository storico](https://github.com/baciulavoro23-png/AntoPistolero-Call-Releases/releases/latest). I nuovi aggiornamenti e il tema ANTO sono distribuiti nella versione standard; nessuna nuova edizione separata viene pubblicata.
+
+## Verifiche della distribuzione
+
+Installer, ZIP e APK riscaricati e confrontati tramite SHA-256. Aggiornamento Windows dalla 2.2.0 verificato con dati sintetici e conservazione di account, promemoria, preferenze e file di associazione Bridge. Nessuna chiamata reale è stata avviata durante i collaudi. I tempi telefonici e il comportamento sui dispositivi fisici restano da verificare.
