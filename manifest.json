@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.2.0",
-  "published_at": "2026-11-12T18:18:11.6574123+01:00",
+  "version": "2.3.0",
+  "published_at": "2026-11-13T13:59:32.2592798+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.2.0",
+  "notes": "Aggiornamento EderaAutoCall 2.3.0",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -724,9 +724,19 @@
         "Note, stati e scadenze restano manuali; nessuna osservazione delle nuove schede o passaggio al contatto successivo.",
         "Destinatario ricontrollato subito prima dell'invio, con blocco delle schede ambigue, dei doppi clic e delle operazioni concorrenti."
       ]
+    },
+    {
+      "version": "2.3.0",
+      "changes": [
+        "Calendario condiviso: promemoria CS, VENDITA e categorie personali, con autore, destinatario e titolare distinti e permessi verificati sul server.",
+        "Sveglie discrete di Eddy senza cambiare schermata, recupero degli arretrati e suono breve personalizzabile con MP3.",
+        "Personalizza: Eddy indipendente dal tema e preferenze separate per account; nuovo tema ANTO scaricabile tramite codice nella versione normale.",
+        "Chiamata singola: feedback immediato e letture CRM ottimizzate, mantenendo i controlli contro destinatari ambigui e doppi invii.",
+        "Call Bridge: tema e avatar indipendenti su iPhone e Android, con canale di risveglio opzionale e polling di riserva."
+      ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.2.0/EderaAutoCall-2.2.0.zip",
-  "sha256": "483260a07f5c1691446c51dafafd33d02013182ae0ef7fd265630131ee0af4a9",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.3.0/EderaAutoCall-2.3.0.zip",
+  "sha256": "6e0af78a23a6bb8f9dc5d990622d22aa5632668854de14cd20ff17214344c502",
   "entrypoint": "EderaAutoCall.exe"
 }
