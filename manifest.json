@@ -1,11 +1,19 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.5.1",
-  "published_at": "2026-11-19T15:46:31.7555479+01:00",
+  "version": "2.5.2",
+  "published_at": "2026-11-19T16:09:36.5561586+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.5.1",
+  "notes": "Aggiornamento EderaAutoCall 2.5.2",
   "release_notes": [
+    {
+      "version": "2.5.2",
+      "changes": [
+        "GAIL e AXA: la risposta ATC in Black List per decisione della Compagnia viene acquisita come esito valido.",
+        "La frase completa viene riportata nel riepilogo in posizione, senza attese inutili per un moltiplicatore o interruzioni del controllo.",
+        "Conservati i controlli su compagnia, polizza e partita IVA della risposta e la protezione dalle note duplicate."
+      ]
+    },
     {
       "version": "2.5.1",
       "changes": [
@@ -778,7 +786,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.1/EderaAutoCall-2.5.1.zip",
-  "sha256": "499bdf2fc8d9ea6849cc2d363ccf1d3fc10fd21bc99a0b816027a3a428757a72",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.2/EderaAutoCall-2.5.2.zip",
+  "sha256": "0a37dc52daff7c8e459bfb1030cd41686ae91c4b9ae761b403dc78c9dd090aaf",
   "entrypoint": "EderaAutoCall.exe"
 }
