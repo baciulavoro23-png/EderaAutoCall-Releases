@@ -1,11 +1,20 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.5.3",
-  "published_at": "2026-11-19T17:01:39.1662551+01:00",
+  "version": "2.5.4",
+  "published_at": "2026-11-19T18:29:50.0673424+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.5.3",
+  "notes": "Aggiornamento EderaAutoCall 2.5.4",
   "release_notes": [
+    {
+      "version": "2.5.4",
+      "changes": [
+        "Corretto il componente Windows usato dopo NR per compilare WhatsApp Desktop, anche nelle sessioni SENZA STATO.",
+        "Il collegamento al Chrome normale conserva la pagina WhatsApp aperta nella scheda cliente e gestisce il reindirizzamento www, mantenendo escluse le schede personali.",
+        "Conservati la verifica del destinatario, l'invio singolo e il passaggio al contatto successivo dopo il messaggio.",
+        "Gli errori riportano la fase WhatsApp e il dettaglio dell'accessibilita; un problema nel salvataggio delle statistiche non nasconde piu l'esito della sessione."
+      ]
+    },
     {
       "version": "2.5.3",
       "changes": [
@@ -794,7 +803,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.3/EderaAutoCall-2.5.3.zip",
-  "sha256": "4fbd5cb12d4deb354d19e676bb76282ca7903ba1329c572ccb799b88a3442dbe",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.4/EderaAutoCall-2.5.4.zip",
+  "sha256": "08ef3e82be4fb6908af82f4b504b530935579aaa6fe7c5d4a9a17d433debbe01",
   "entrypoint": "EderaAutoCall.exe"
 }
