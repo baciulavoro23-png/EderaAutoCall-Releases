@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.3.5",
-  "published_at": "2026-11-17T10:52:33.3468321+01:00",
+  "version": "2.4.0",
+  "published_at": "2026-11-19T10:43:11.2952339+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.3.5",
+  "notes": "Aggiornamento EderaAutoCall 2.4.0",
   "release_notes": [
     {
       "version": "1.3.0",
@@ -744,17 +744,17 @@
       ]
     },
     {
-      "version": "2.3.5",
+      "version": "2.4.0",
       "changes": [
-        "Restyling completo: pulsanti arrotondati, icone ufficiali Tabler, gerarchia dei testi e barre sottili coordinate ai temi.",
-        "Comandi NR e Gestione in una finestra flottante; Modalita manuale con Chiama tramite la chiamata singola Call Bridge.",
-        "Ricontatto giornaliero al prossimo lunedi-venerdi alle 08:00; le scelte manuali restano valide per la giornata.",
-        "Strumenti temporaneamente chiuso: solo cartello lavori in corso, senza comandi o componenti del progetto privato.",
-        "Account, dati, calendario, Firme, mail ATC, preferenze e associazione Call Bridge conservati."
+        "Interfaccia e icone rinnovate e adattate ai temi; comandi flottanti NR e Gestione e Modalita manuale con chiamata singola via Bridge.",
+        "Ricontatto aggiornato ogni giorno al prossimo giorno lavorativo alle 08:00, con rinvio al lunedi nel weekend.",
+        "Calendario: azioni sugli appuntamenti e indicazione dell'intestatario nella riga; accessi ai portali dalla schermata Strumenti dopo l'attivazione.",
+        "Collegamento opzionale al Chrome abituale per Easy e chiamate; Chrome resta aperto alla chiusura di Autocall. Browser delle polizze separato.",
+        "Azienda e polizze resta con il cartello Lavori in corso fino all'attivazione centrale, poi si abilita automaticamente per tutti senza ulteriori aggiornamenti."
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.3.5/EderaAutoCall-2.3.5.zip",
-  "sha256": "823f21a567d451d388959f55f5e0ca25e24999abb222137eccf23884824785c7",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.4.0/EderaAutoCall-2.4.0.zip",
+  "sha256": "e17588cf90b8b57b593d26b8602a7cc4965c06afa048bf3fc7927e956c17de81",
   "entrypoint": "EderaAutoCall.exe"
 }
