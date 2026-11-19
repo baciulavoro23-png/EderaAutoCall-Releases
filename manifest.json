@@ -1,11 +1,26 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.4.0",
-  "published_at": "2026-11-19T10:43:11.2952339+01:00",
+  "version": "2.5.0",
+  "published_at": "2026-11-19T15:05:37.0608672+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.4.0",
+  "notes": "Aggiornamento EderaAutoCall 2.5.0",
   "release_notes": [
+    {
+      "version": "2.5.0",
+      "changes": [
+        "Corretto l'avvio delle chiamate da elenco per tutti gli stati: nominativo e scheda vengono letti dal comando Easy della singola riga.",
+        "LEAD e WHATSAPP non vengono piu scambiati per il nome del cliente quando cambiano le colonne.",
+        "Verifica di posizione e cliente prima di leggere il numero, senza attendere immagini e risorse secondarie.",
+        "Nuova sezione AI con controllo D&B e polizze, separata dai calcolatori di Strumenti.",
+        "Permesso AI gestito per ciascun utente dal Master; inizialmente abilitato soltanto BACIU.",
+        "Controlli massivi delle polizze sull'elenco Easy corrente, con intervalli e salto delle pratiche gia controllate.",
+        "Report ATC NON ASSUMIBILI nelle Note generali; gli altri report nello stato autorizzato piu recente.",
+        "Ripresa dalla stessa pratica dopo Accessi completati e blocco dei salvataggi non confermati.",
+        "Barra superiore coordinata al tema, icona AI dedicata e rimozione del cartello lavori in corso.",
+        "Collegamento al Chrome abituale predefinito sui nuovi PC; browser delle polizze separato."
+      ]
+    },
     {
       "version": "1.3.0",
       "changes": [
@@ -754,7 +769,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.4.0/EderaAutoCall-2.4.0.zip",
-  "sha256": "e17588cf90b8b57b593d26b8602a7cc4965c06afa048bf3fc7927e956c17de81",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.0/EderaAutoCall-2.5.0.zip",
+  "sha256": "e927cd5ec9c5ce5b9a6741a77316e48d1f292e7da1c141784f04acbbac9fce7d",
   "entrypoint": "EderaAutoCall.exe"
 }
