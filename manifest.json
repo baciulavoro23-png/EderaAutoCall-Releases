@@ -1,11 +1,17 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.5.10",
-  "published_at": "2026-11-20T17:08:18.1280850+01:00",
+  "version": "2.5.11",
+  "published_at": "2026-11-20T18:17:19.0047701+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.5.10",
+  "notes": "Aggiornamento EderaAutoCall 2.5.11",
   "release_notes": [
+    {
+      "version": "2.5.11",
+      "changes": [
+        "GAIL riconosce anche l'esito ATC non piu assumibile, riporta la frase del portale nel report Easy e prosegue il controllo."
+      ]
+    },
     {
       "version": "2.5.10",
       "changes": [
@@ -853,7 +859,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.10/EderaAutoCall-2.5.10.zip",
-  "sha256": "0288f2809d516253979d2e409a7b4410640fb0ec83814c69e7ec5a80724c1aa8",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.11/EderaAutoCall-2.5.11.zip",
+  "sha256": "5ecf16f1801557cc32ee781186c77081c87322813a7625dcf6850603be277b3c",
   "entrypoint": "EderaAutoCall.exe"
 }
