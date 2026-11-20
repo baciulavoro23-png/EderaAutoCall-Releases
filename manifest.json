@@ -1,11 +1,18 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.5.7",
-  "published_at": "2026-11-20T12:15:39.2240498+01:00",
+  "version": "2.5.8",
+  "published_at": "2026-11-20T14:20:16.2398967+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.5.7",
+  "notes": "Aggiornamento EderaAutoCall 2.5.8",
   "release_notes": [
+    {
+      "version": "2.5.8",
+      "changes": [
+        "HDI legge anche DA VALUTARE IN DEROGA, con il rapporto TFR/Montante e la nota del portale.",
+        "Cardif riconosce le sessioni di scoring gia chiuse e legge il risultato anche quando si trova fuori dalla parte visibile della pagina."
+      ]
+    },
     {
       "version": "2.5.7",
       "changes": [
@@ -829,7 +836,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.7/EderaAutoCall-2.5.7.zip",
-  "sha256": "e15b9324a2dfec7c2051229ee89b3e1327b11e66e6819a2e553e813650eed5b8",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.8/EderaAutoCall-2.5.8.zip",
+  "sha256": "ddc1f9381259450c7bf3aa881ddfa033b7719b9ec19ab394f54db2af31e55709",
   "entrypoint": "EderaAutoCall.exe"
 }
