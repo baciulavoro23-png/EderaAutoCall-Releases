@@ -1,11 +1,20 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.5.4",
-  "published_at": "2026-11-19T18:29:50.0673424+01:00",
+  "version": "2.5.5",
+  "published_at": "2026-11-20T10:13:25.7599122+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.5.4",
+  "notes": "Aggiornamento EderaAutoCall 2.5.5",
   "release_notes": [
+    {
+      "version": "2.5.5",
+      "changes": [
+        "Controlli massivi: ripresa della singola pratica, risultati Easy gia salvati e gestione delle sessioni Cardif.",
+        "ATC non assumibili: verifica delle Note generali e salvataggio con urgenza dopo il riepilogo.",
+        "Contratto stampato: attesa del collegamento Chrome e segnalazione delle operazioni effettivamente attive.",
+        "Gestione utenti: conferma del destinatario prima del reset della password."
+      ]
+    },
     {
       "version": "2.5.4",
       "changes": [
@@ -803,7 +812,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.4/EderaAutoCall-2.5.4.zip",
-  "sha256": "08ef3e82be4fb6908af82f4b504b530935579aaa6fe7c5d4a9a17d433debbe01",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.5/EderaAutoCall-2.5.5.zip",
+  "sha256": "19ffb3678ded841ca7fee6d5310c8ffc9ee2482bda0679cee21c618cb37cdbc4",
   "entrypoint": "EderaAutoCall.exe"
 }
