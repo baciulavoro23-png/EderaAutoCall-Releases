@@ -1,11 +1,20 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.5.9",
-  "published_at": "2026-11-20T15:43:36.4576306+01:00",
+  "version": "2.5.10",
+  "published_at": "2026-11-20T17:08:18.1280850+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.5.9",
+  "notes": "Aggiornamento EderaAutoCall 2.5.10",
   "release_notes": [
+    {
+      "version": "2.5.10",
+      "changes": [
+        "Le schede senza azienda e gli enti pubblici vengono saltati prima di D&B e delle polizze. Il lotto prosegue sulla pratica successiva.",
+        "Il controllo usa una copia locale dell'indice IPA e riconosce le abbreviazioni degli enti in Easy.",
+        "Se l'identita di una ditta non coincide con il report D&B, il controllo indica il motivo da verificare.",
+        "D&B apre anche il report esistente della spunta In portafoglio, ricontrolla la Mailbox e distingue i report assenti o in preparazione."
+      ]
+    },
     {
       "version": "2.5.9",
       "changes": [
@@ -844,7 +853,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.9/EderaAutoCall-2.5.9.zip",
-  "sha256": "d55c2a3c5eca5adc9949106eeb04afa3a65dba623a175b2e05666774a501935d",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.10/EderaAutoCall-2.5.10.zip",
+  "sha256": "0288f2809d516253979d2e409a7b4410640fb0ec83814c69e7ec5a80724c1aa8",
   "entrypoint": "EderaAutoCall.exe"
 }
