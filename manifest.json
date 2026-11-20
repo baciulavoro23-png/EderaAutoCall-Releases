@@ -1,11 +1,19 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.5.6",
-  "published_at": "2026-11-20T11:19:06.8586894+01:00",
+  "version": "2.5.7",
+  "published_at": "2026-11-20T12:15:39.2240498+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.5.6",
+  "notes": "Aggiornamento EderaAutoCall 2.5.7",
   "release_notes": [
+    {
+      "version": "2.5.7",
+      "changes": [
+        "Firme legge solo gli appuntamenti da caricare e verifica lo stato della singola firma se il calendario perde la risposta.",
+        "Nei controlli massivi Cardif recupera la ricerca gia eseguita e riutilizza la sessione WE FINANCE tra le pratiche.",
+        "La lettura iniziale di Easy riutilizza stati e note della pratica quando sono gia disponibili."
+      ]
+    },
     {
       "version": "2.5.6",
       "changes": [
@@ -821,7 +829,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.6/EderaAutoCall-2.5.6.zip",
-  "sha256": "e358f0db8778dfddbabe75b5413a21e139bc51fa1755fad28a21bb6e75d0b808",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.7/EderaAutoCall-2.5.7.zip",
+  "sha256": "e15b9324a2dfec7c2051229ee89b3e1327b11e66e6819a2e553e813650eed5b8",
   "entrypoint": "EderaAutoCall.exe"
 }
