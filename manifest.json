@@ -1,11 +1,19 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.5.8",
-  "published_at": "2026-11-20T14:20:16.2398967+01:00",
+  "version": "2.5.9",
+  "published_at": "2026-11-20T15:43:36.4576306+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.5.8",
+  "notes": "Aggiornamento EderaAutoCall 2.5.9",
   "release_notes": [
+    {
+      "version": "2.5.9",
+      "changes": [
+        "NET cerca il codice fiscale aziendale verificato anche quando e diverso dalla partita IVA e recupera la ricerca gia inviata.",
+        "I controlli danno alle risposte in ritardo una seconda finestra di lettura senza inoltrare una nuova ricerca.",
+        "Il report Easy distingue rating, bilanci e singole polizze con il separatore ' ||| ' e riconosce anche le note precedenti."
+      ]
+    },
     {
       "version": "2.5.8",
       "changes": [
@@ -836,7 +844,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.8/EderaAutoCall-2.5.8.zip",
-  "sha256": "ddc1f9381259450c7bf3aa881ddfa033b7719b9ec19ab394f54db2af31e55709",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.9/EderaAutoCall-2.5.9.zip",
+  "sha256": "d55c2a3c5eca5adc9949106eeb04afa3a65dba623a175b2e05666774a501935d",
   "entrypoint": "EderaAutoCall.exe"
 }
