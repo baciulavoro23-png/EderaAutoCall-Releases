@@ -1,11 +1,20 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.5.5",
-  "published_at": "2026-11-20T10:13:25.7599122+01:00",
+  "version": "2.5.6",
+  "published_at": "2026-11-20T11:19:06.8586894+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.5.5",
+  "notes": "Aggiornamento EderaAutoCall 2.5.6",
   "release_notes": [
+    {
+      "version": "2.5.6",
+      "changes": [
+        "Cardif riconosce la sessione WE FINANCE aperta anche quando il pannello delle applicazioni e chiuso.",
+        "Firme riutilizza il Chrome collegato anche con schede WhatsApp aperte e mostra la fase corrente del controllo.",
+        "Le finestre mobili Chiamate e Manuale si trascinano dalla loro intestazione senza barra di Windows.",
+        "Ridisegni ridotti nelle schermate con temi grafici per mantenere reattivi pulsanti e scorrimento."
+      ]
+    },
     {
       "version": "2.5.5",
       "changes": [
@@ -812,7 +821,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.5/EderaAutoCall-2.5.5.zip",
-  "sha256": "19ffb3678ded841ca7fee6d5310c8ffc9ee2482bda0679cee21c618cb37cdbc4",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.6/EderaAutoCall-2.5.6.zip",
+  "sha256": "e358f0db8778dfddbabe75b5413a21e139bc51fa1755fad28a21bb6e75d0b808",
   "entrypoint": "EderaAutoCall.exe"
 }
