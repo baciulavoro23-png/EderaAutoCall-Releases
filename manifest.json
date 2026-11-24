@@ -1,11 +1,18 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.5.11",
-  "published_at": "2026-11-20T18:17:19.0047701+01:00",
+  "version": "2.6.0",
+  "published_at": "2026-11-24T13:05:57.1070886+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.5.11",
+  "notes": "Aggiornamento EderaAutoCall 2.6.0",
   "release_notes": [
+    {
+      "version": "2.6.0",
+      "changes": [
+        "Controlli massivi più fluidi: fino a tre riprove sulla stessa pratica Easy, con il dettaglio del motivo e l'ordine dell'elenco conservato.",
+        "Modalità manutenzione programmata e reversibile per Autocall e Call Bridge, con stato visibile nel Portale Master. Disattivata al rilascio."
+      ]
+    },
     {
       "version": "2.5.11",
       "changes": [
@@ -859,7 +866,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.5.11/EderaAutoCall-2.5.11.zip",
-  "sha256": "5ecf16f1801557cc32ee781186c77081c87322813a7625dcf6850603be277b3c",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.6.0/EderaAutoCall-2.6.0.zip",
+  "sha256": "32a88b8989b2c22d97b8c24582341a0eaf465bb8d0259ebe36160cd5eefe8bdf",
   "entrypoint": "EderaAutoCall.exe"
 }
