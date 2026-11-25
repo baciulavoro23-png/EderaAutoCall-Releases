@@ -1,11 +1,20 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.6.0",
-  "published_at": "2026-11-24T13:05:57.1070886+01:00",
+  "version": "2.6.1",
+  "published_at": "2026-11-25T09:29:29.5067304+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.6.0",
+  "notes": "Aggiornamento EderaAutoCall 2.6.1",
   "release_notes": [
+    {
+      "version": "2.6.1",
+      "changes": [
+        "Avvio più reattivo e animazioni dei temi più leggere durante il lavoro.",
+        "Collegamento a Chrome più rapido, con riuso del driver compatibile e indicazioni quando Easy non è aperto.",
+        "Lettura più veloce degli elenchi Easy e gestione delle righe ancora in caricamento prima della prima chiamata.",
+        "Call Bridge mostra anche i temi scaricabili del profilo. Su Android installare il Bridge aggiornato allegato alla release."
+      ]
+    },
     {
       "version": "2.6.0",
       "changes": [
@@ -866,7 +875,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.6.0/EderaAutoCall-2.6.0.zip",
-  "sha256": "32a88b8989b2c22d97b8c24582341a0eaf465bb8d0259ebe36160cd5eefe8bdf",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.6.1/EderaAutoCall-2.6.1.zip",
+  "sha256": "d965767728c67894072cb1a18bc7b39a6c41d92144479f63225ef8559276484e",
   "entrypoint": "EderaAutoCall.exe"
 }
