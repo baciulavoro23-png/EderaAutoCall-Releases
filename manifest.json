@@ -1,11 +1,18 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.6.2",
-  "published_at": "2026-11-26T14:43:51.2627062+01:00",
+  "version": "2.6.3",
+  "published_at": "2026-11-26T16:57:05.9613277+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.6.2",
+  "notes": "Aggiornamento EderaAutoCall 2.6.3",
   "release_notes": [
+    {
+      "version": "2.6.3",
+      "changes": [
+        "Gli elenchi di chiamate leggono direttamente la pagina Easy aperta anche quando Chrome ripristina la scheda o cambia il contesto della pagina.",
+        "Durante l'avvio dell'elenco Autocall indica quando sta leggendo i contatti. Prima di chiamare verifica la scheda del cliente in primo piano."
+      ]
+    },
     {
       "version": "2.6.2",
       "changes": [
@@ -884,7 +891,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.6.2/EderaAutoCall-2.6.2.zip",
-  "sha256": "7e686fc4a0d736f29401c6f1c9b1b4be508f4edce3bdecf0475e97de06317626",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.6.3/EderaAutoCall-2.6.3.zip",
+  "sha256": "b7e2232c3ebf30478f408f17863e0ca46690e6212d12bc5ce986dad4516d7921",
   "entrypoint": "EderaAutoCall.exe"
 }
