@@ -1,11 +1,20 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "2.6.1",
-  "published_at": "2026-11-25T09:29:29.5067304+01:00",
+  "version": "2.6.2",
+  "published_at": "2026-11-26T14:43:51.2627062+01:00",
   "mandatory": false,
-  "notes": "Aggiornamento EderaAutoCall 2.6.1",
+  "notes": "Aggiornamento EderaAutoCall 2.6.2",
   "release_notes": [
+    {
+      "version": "2.6.2",
+      "changes": [
+        "Elenchi di chiamate: prima della chiamata Autocall porta in primo piano la scheda Easy e verifica che corrisponda al contatto.",
+        "Gestione: la finestra flottante indica quando chiudere la scheda. Il passaggio al contatto successivo recupera i timeout temporanei di Chrome.",
+        "Avvio elenchi: lettura piu leggera delle icone e tentativi automatici se Chrome impiega troppo tempo a rispondere.",
+        "Messaggi dopo NR: Autocall apre WhatsApp Desktop dal numero del collegamento Easy e verifica la chat prima di inviare il testo."
+      ]
+    },
     {
       "version": "2.6.1",
       "changes": [
@@ -875,7 +884,7 @@
       ]
     }
   ],
-  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.6.1/EderaAutoCall-2.6.1.zip",
-  "sha256": "d965767728c67894072cb1a18bc7b39a6c41d92144479f63225ef8559276484e",
+  "package_url": "https://github.com/baciulavoro23-png/EderaAutoCall-Releases/releases/download/v2.6.2/EderaAutoCall-2.6.2.zip",
+  "sha256": "7e686fc4a0d736f29401c6f1c9b1b4be508f4edce3bdecf0475e97de06317626",
   "entrypoint": "EderaAutoCall.exe"
 }
